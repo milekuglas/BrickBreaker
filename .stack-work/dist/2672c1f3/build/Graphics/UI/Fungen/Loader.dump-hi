@@ -1,0 +1,305 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:27.5916032 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Loader 7103
+  interface hash: 0a38abe09bbdd66a5641c46c96c558c8
+  ABI hash: f24d2703d632deff041b19fd2018857e
+  export-list hash: dc3af7888dcfa4fd82d5322e42052e3d
+  orphan hash: bfd3ace90f8f43509a1b56145ca0041b
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Loader.loadBitmap
+  Graphics.UI.Fungen.Loader.loadBitmapList
+  Graphics.UI.Fungen.Loader.FilePictureList
+module dependencies: Graphics.UI.Fungen.Types
+                     Graphics.UI.Fungen.Util
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      Win32-2.3.1.0@Win32_ELFLzTRksT8Dql3wobiWvb
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Format.Parse
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Types 266c0848bd0d02b9711b437939844328
+  exports: 5a8515e956ff2a99708d0d74d12ae2e4
+  AwbfBitmap fc88af62772c894caf360e28425a46fb
+  ColorList3 cd5952d2d5400410b7f53fa47f70ab66
+  InvList 32bfe2a33bc27a7c7c6c8d7c01d98acc
+import  -/  Graphics.UI.Fungen.Util 1dc50c7d9817175bd0524f70badc9c85
+  exports: d89e4436dc42c1dda1231ce02c7c72ce
+  dropGLsizei 3687608e61487d475068103b523b7287
+  make0 143291c4b0acb8f6830fb2f2c5418f63
+  ord2 a7ecd5b0194c6d3a0feac603dd7db26f
+  shiftLeft 3353fb0cec2050c6b3101df62b2f7b40
+  toBinary 8eb57ce320bcf0c07a011584d020e633
+  toDecimal 74ef83e20181f670a8bcd5acaa57d332
+import  -/  OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp:Graphics.GL.Types dcfcd78bfbb0424c346b4cc12e92f0c2
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL fd51d1cc1b32b2dc8d731f8d5809eb7e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.DataType b54077366994d030e7fef1f262b574ef
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.PixelData c220fc1da6df9b372bbe4509eef37a04
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.PixelFormat b341bac5b904d260a9192012617bef01
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexAttributes 05bcf4807149f18b48a9344316439f52
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Foreign ec20bd347d2cd5725d5d866b512c9fb0
+import  -/  base-4.8.2.0:Foreign.Marshal.Array 1d9c05d79e8226dd1629eeb79158d672
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:GHC.Enum debc6de3086023a15993ab0cecffb90b
+import  -/  base-4.8.2.0:GHC.IO bb5b81adcea33b14bd4abe16d7dde45f
+import  -/  base-4.8.2.0:GHC.IO.Handle 631f32e0ad65df940f6a2b3e721d8452
+import  -/  base-4.8.2.0:GHC.IO.Handle.FD f260998705ecc3bf793b3d885cfc0751
+import  -/  base-4.8.2.0:GHC.IO.Handle.Text 06d2dc7704bcfe88a2157fd04748ace5
+import  -/  base-4.8.2.0:GHC.IO.IOMode 89fcaeb96929360e7be5a7bbb14ceec9
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Ptr 074805932cc34cfdd9b02e273ecf4865
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.IO 638c10c4fd4901a0aca5b77c9f14123d
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+f4c9761d89d28c2184f9dad3eaee4178
+  $s$fEq(,,) ::
+    GHC.Classes.Eq (GHC.Word.Word8, GHC.Word.Word8, GHC.Word.Word8)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (GHC.Word.Word8, GHC.Word.Word8, GHC.Word.Word8)
+                  (GHC.Classes.$fEq(,,)_$c==
+                     @ GHC.Word.Word8
+                     @ GHC.Word.Word8
+                     @ GHC.Word.Word8
+                     GHC.Word.$fEqWord8
+                     GHC.Word.$fEqWord8
+                     GHC.Word.$fEqWord8)
+                  Graphics.UI.Fungen.Loader.$s$fEq(,,)_$s$fEq(,,)_$c/= -}
+a9b49f626dc6315ca88e83669632cb58
+  $s$fEq(,,)_$s$fEq(,,)_$c/= ::
+    (GHC.Word.Word8, GHC.Word.Word8, GHC.Word.Word8)
+    -> (GHC.Word.Word8, GHC.Word.Word8, GHC.Word.Word8)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U(U),1*U(U),1*U(U))><S(SLL),1*U(1*U(U),1*U(U),1*U(U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a3 :: (GHC.Word.Word8, GHC.Word.Word8, GHC.Word.Word8)
+                   b1 :: (GHC.Word.Word8, GHC.Word.Word8, GHC.Word.Word8) ->
+                 case GHC.Classes.$fEq(,,)_$c==
+                        @ GHC.Word.Word8
+                        @ GHC.Word.Word8
+                        @ GHC.Word.Word8
+                        GHC.Word.$fEqWord8
+                        GHC.Word.$fEqWord8
+                        GHC.Word.$fEqWord8
+                        a3
+                        b1 of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+979aaba3d5392b81f22541101b3b7b52
+  $s$fStorableColor1 ::
+    Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4 GHC.Word.Word8
+    -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ ds :: Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+                           GHC.Word.Word8 ->
+                 Foreign.Storable.$fStorableInt24) -}
+1beb65c91c63441608c6782c90adf789
+  $s$fStorableColor2 ::
+    Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4 GHC.Word.Word8
+    -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ ds :: Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+                           GHC.Word.Word8 ->
+                 GHC.Types.I# 4) -}
+3f524cb1096a308a81054aeedb1859de
+  $s$fStorableColor4 ::
+    Foreign.Storable.Storable
+      (Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+         GHC.Word.Word8)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+                       GHC.Word.Word8)
+                  Graphics.UI.Fungen.Loader.$s$fStorableColor2
+                  Graphics.UI.Fungen.Loader.$s$fStorableColor1
+                  (Graphics.Rendering.OpenGL.GL.VertexAttributes.$fStorableColor4_$cpeekElemOff
+                     @ GHC.Word.Word8
+                     Foreign.Storable.$fStorableWord8)
+                  (Graphics.Rendering.OpenGL.GL.VertexAttributes.$fStorableColor4_$cpokeElemOff
+                     @ GHC.Word.Word8
+                     Foreign.Storable.$fStorableWord8)
+                  (Graphics.Rendering.OpenGL.GL.VertexAttributes.$fStorableColor4_$cpeekByteOff
+                     @ GHC.Word.Word8
+                     Foreign.Storable.$fStorableWord8)
+                  (Graphics.Rendering.OpenGL.GL.VertexAttributes.$fStorableColor4_$cpokeByteOff
+                     @ GHC.Word.Word8
+                     Foreign.Storable.$fStorableWord8)
+                  Graphics.UI.Fungen.Loader.$s$fStorableColor4_$s$fStorableColor4_$cpeek
+                  (Graphics.Rendering.OpenGL.GL.VertexAttributes.$fStorableColor4_$cpoke
+                     @ GHC.Word.Word8
+                     Foreign.Storable.$fStorableWord8) -}
+7bfdae38e19bf0e090eb19dd3003a6c7
+  $s$fStorableColor4_$s$fStorableColor4_$cpeek ::
+    GHC.Ptr.Ptr
+      (Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+         GHC.Word.Word8)
+    -> GHC.Types.IO
+         (Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+            GHC.Word.Word8)
+  {- Arity: 1, Strictness: <S,1*U(U)>,
+     Unfolding: InlineRule (0, True, False)
+                (Graphics.Rendering.OpenGL.GL.VertexAttributes.peekApplicativeTraversable
+                   @ Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+                   @ GHC.Word.Word8
+                   Graphics.Rendering.OpenGL.GL.VertexAttributes.$fApplicativeColor4
+                   Graphics.Rendering.OpenGL.GL.VertexAttributes.$fTraversableColor4
+                   Foreign.Storable.$fStorableWord8) -}
+121bf09d55f5de2aaba26f9e5d440e69
+  type BmpList =
+    [(Graphics.GL.Types.GLubyte,
+      Graphics.GL.Types.GLubyte,
+      Graphics.GL.Types.GLubyte,
+      Graphics.GL.Types.GLubyte)]
+66496d5d334aab40dd115f000c4c4a69
+  type FilePictureList =
+    [(GHC.IO.FilePath, Graphics.UI.Fungen.Types.InvList)]
+1f9df2fb9d91890096fa343af2b6de70
+  loadBitmap ::
+    GHC.IO.FilePath
+    -> GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3
+    -> GHC.Types.IO Graphics.UI.Fungen.Types.AwbfBitmap
+  {- Arity: 3, Strictness: <L,U><L,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Loader.loadBitmap1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <Graphics.UI.Fungen.Types.AwbfBitmap>_R)) -}
+271fcfc2dcc9dea72a8a02f03d3c3a1e
+  loadBitmap1 ::
+    GHC.IO.FilePath
+    -> GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Graphics.UI.Fungen.Types.AwbfBitmap #)
+  {- Arity: 3, Strictness: <L,U><L,1*U><L,U> -}
+c6eb3ee191f271b2d005ade89454c12c
+  loadBitmapList ::
+    [(GHC.IO.FilePath,
+      GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3)]
+    -> GHC.Types.IO [Graphics.UI.Fungen.Types.AwbfBitmap]
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Loader.loadBitmapList1
+                  `cast`
+                (<[(GHC.IO.FilePath,
+                    GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3)]>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <[Graphics.UI.Fungen.Types.AwbfBitmap]>_R)) -}
+31dcf6517d470c7e0f141eb5d5ba4476
+  loadBitmapList1 ::
+    [(GHC.IO.FilePath,
+      GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3)]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          [Graphics.UI.Fungen.Types.AwbfBitmap] #)
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ bmps :: [(GHC.IO.FilePath,
+                             GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3)]
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Graphics.UI.Fungen.Loader.loadBitmapList2
+                        bmps
+                        (GHC.Types.[] @ Graphics.UI.Fungen.Types.AwbfBitmap)
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    GHC.List.reverse
+                      @ Graphics.UI.Fungen.Types.AwbfBitmap
+                      ipv1 #) }) -}
+78257888fb457363b3e8105503c07355
+  loadBitmapList2 ::
+    [(GHC.IO.FilePath,
+      GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3)]
+    -> [Graphics.UI.Fungen.Types.AwbfBitmap]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          [Graphics.UI.Fungen.Types.AwbfBitmap] #)
+  {- Arity: 3, Strictness: <S,1*U><L,U><L,U> -}
+"SPEC/Graphics.UI.Fungen.Loader $fEq(,,) @ Word8 @ Word8 @ Word8" [ALWAYS] forall $dEq :: GHC.Classes.Eq
+                                                                                            GHC.Word.Word8
+                                                                                  $dEq1 :: GHC.Classes.Eq
+                                                                                             GHC.Word.Word8
+                                                                                  $dEq2 :: GHC.Classes.Eq
+                                                                                             GHC.Word.Word8
+  GHC.Classes.$fEq(,,) @ GHC.Word.Word8
+                       @ GHC.Word.Word8
+                       @ GHC.Word.Word8
+                       $dEq
+                       $dEq1
+                       $dEq2
+  = Graphics.UI.Fungen.Loader.$s$fEq(,,)
+"SPEC/Graphics.UI.Fungen.Loader $fEq(,,)_$c/= @ Word8 @ Word8 @ Word8" [ALWAYS] forall $dEq :: GHC.Classes.Eq
+                                                                                                 GHC.Word.Word8
+                                                                                       $dEq1 :: GHC.Classes.Eq
+                                                                                                  GHC.Word.Word8
+                                                                                       $dEq2 :: GHC.Classes.Eq
+                                                                                                  GHC.Word.Word8
+  GHC.Classes.$fEq(,,)_$c/= @ GHC.Word.Word8
+                            @ GHC.Word.Word8
+                            @ GHC.Word.Word8
+                            $dEq
+                            $dEq1
+                            $dEq2
+  = Graphics.UI.Fungen.Loader.$s$fEq(,,)_$s$fEq(,,)_$c/=
+"SPEC/Graphics.UI.Fungen.Loader $fStorableColor4 @ Word8" [ALWAYS] forall $dStorable :: Foreign.Storable.Storable
+                                                                                          GHC.Word.Word8
+  Graphics.Rendering.OpenGL.GL.VertexAttributes.$fStorableColor4 @ GHC.Word.Word8
+                                                                 $dStorable
+  = Graphics.UI.Fungen.Loader.$s$fStorableColor4
+"SPEC/Graphics.UI.Fungen.Loader $fStorableColor4_$cpeek @ Word8" [ALWAYS] forall $dStorable :: Foreign.Storable.Storable
+                                                                                                 GHC.Word.Word8
+  Graphics.Rendering.OpenGL.GL.VertexAttributes.$fStorableColor4_$cpeek @ GHC.Word.Word8
+                                                                        $dStorable
+  = Graphics.UI.Fungen.Loader.$s$fStorableColor4_$s$fStorableColor4_$cpeek
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

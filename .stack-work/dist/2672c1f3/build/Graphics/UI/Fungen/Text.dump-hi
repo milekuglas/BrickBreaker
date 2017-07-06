@@ -1,0 +1,96 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:26.7251054 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Text 7103
+  interface hash: 8c36bf906446d547eec00c0ad0748241
+  ABI hash: 673daff94813132004981158c4d24ee5
+  export-list hash: c9145609f323b354c23dfdf859fb366f
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Text.putGameText
+  Graphics.UI.Fungen.Text.Text
+  Graphics.UI.GLUT.Raw.Fonts.BitmapFont{Graphics.UI.GLUT.Raw.Fonts.Fixed8By13 Graphics.UI.GLUT.Raw.Fonts.Fixed9By15 Graphics.UI.GLUT.Raw.Fonts.Helvetica10 Graphics.UI.GLUT.Raw.Fonts.Helvetica12 Graphics.UI.GLUT.Raw.Fonts.Helvetica18 Graphics.UI.GLUT.Raw.Fonts.TimesRoman10 Graphics.UI.GLUT.Raw.Fonts.TimesRoman24}
+module dependencies: Graphics.UI.Fungen.Types
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Types 266c0848bd0d02b9711b437939844328
+  exports: 5a8515e956ff2a99708d0d74d12ae2e4
+  Point2D 7c3021d57c8a65dc6847d3db8a1deabf
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT 5f96c81bc741688b59291cc04889046c
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Fonts 00dc5bc0d40cf0f04b88f31aae272ade
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Raw.Fonts 03fce8fc16bbb2e52d3a5de4a918fb43
+import  -/  OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp:Graphics.GL.Types dcfcd78bfbb0424c346b4cc12e92f0c2
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.CoordTrans 8b660450943639e0aadeddc7e820344c
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.RasterPos 2437592cf175b8272facf33c41656813
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Tensor 40e4e1c069a8aa7ff4790f79e34bd27f
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexAttributes 05bcf4807149f18b48a9344316439f52
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexSpec 1b647f635f79bd7946e79b4162a96f2a
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+530c8f0a1594d17412164be312ac161b
+  type Text =
+    (GHC.Base.String,
+     Graphics.UI.GLUT.Raw.Fonts.BitmapFont,
+     Graphics.UI.Fungen.Types.Point2D,
+     Graphics.GL.Types.GLclampf,
+     Graphics.GL.Types.GLclampf,
+     Graphics.GL.Types.GLclampf)
+b4ce24bb64203b1b0b116d1beceed347
+  putGameText :: [Graphics.UI.Fungen.Text.Text] -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Text.putGameText1
+                  `cast`
+                (<[Graphics.UI.Fungen.Text.Text]>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+9159a06d119b6d19e4c3f1a05d243259
+  putGameText1 ::
+    [Graphics.UI.Fungen.Text.Text]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <S,1*U><L,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

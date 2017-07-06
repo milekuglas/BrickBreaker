@@ -1,0 +1,87 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:26.505601 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Types 7103
+  interface hash: 88927054223b8851d3237d7bcff40eb1
+  ABI hash: 266c0848bd0d02b9711b437939844328
+  export-list hash: 5a8515e956ff2a99708d0d74d12ae2e4
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Types.AwbfBitmap
+  Graphics.UI.Fungen.Types.ColorList3
+  Graphics.UI.Fungen.Types.InvList
+  Graphics.UI.Fungen.Types.Point2D
+  Graphics.UI.Fungen.Types.WindowConfig
+module dependencies:
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp:Graphics.GL.Types dcfcd78bfbb0424c346b4cc12e92f0c2
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL fd51d1cc1b32b2dc8d731f8d5809eb7e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.PixelData c220fc1da6df9b372bbe4509eef37a04
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+fc88af62772c894caf360e28425a46fb
+  type AwbfBitmap =
+    (Graphics.GL.Types.GLsizei,
+     Graphics.GL.Types.GLsizei,
+     Graphics.Rendering.OpenGL.GL.PixelData.PixelData
+       Graphics.GL.Types.GLubyte)
+cd5952d2d5400410b7f53fa47f70ab66
+  type ColorList3 =
+    [(Graphics.GL.Types.GLubyte,
+      Graphics.GL.Types.GLubyte,
+      Graphics.GL.Types.GLubyte)]
+32bfe2a33bc27a7c7c6c8d7c01d98acc
+  type InvList =
+    GHC.Base.Maybe [(GHC.Types.Int, GHC.Types.Int, GHC.Types.Int)]
+7c3021d57c8a65dc6847d3db8a1deabf
+  type Point2D =
+    (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+4da2bc592ac453c50b90d843e904c64d
+  type WindowConfig =
+    ((GHC.Types.Int, GHC.Types.Int),
+     (GHC.Types.Int, GHC.Types.Int),
+     GHC.Base.String)
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,643 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:28.1301029 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Map 7103
+  interface hash: 85cdc116b9d99e8938016c6563c90b4b
+  ABI hash: b6e0260dd8790a7481a84d2210a9e44b
+  export-list hash: d775bc95dffcf787c0c16498da61eb4d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Map.clearGameScreen
+  Graphics.UI.Fungen.Map.colorMap
+  Graphics.UI.Fungen.Map.drawGameMap
+  Graphics.UI.Fungen.Map.getCurrentMap
+  Graphics.UI.Fungen.Map.getMapSize
+  Graphics.UI.Fungen.Map.getTileBlocked
+  Graphics.UI.Fungen.Map.getTileMapScroll
+  Graphics.UI.Fungen.Map.getTileMapSize
+  Graphics.UI.Fungen.Map.getTileMapTileMatrix
+  Graphics.UI.Fungen.Map.getTileMapTileSize
+  Graphics.UI.Fungen.Map.getTileMoveCost
+  Graphics.UI.Fungen.Map.getTilePictureIndex
+  Graphics.UI.Fungen.Map.getTileSpecialAttribute
+  Graphics.UI.Fungen.Map.isMultiMap
+  Graphics.UI.Fungen.Map.isTileMap
+  Graphics.UI.Fungen.Map.multiMap
+  Graphics.UI.Fungen.Map.textureMap
+  Graphics.UI.Fungen.Map.tileMap
+  Graphics.UI.Fungen.Map.updateCurrentIndex
+  Graphics.UI.Fungen.Map.updateCurrentMap
+  Graphics.UI.Fungen.Map.GameMap
+  Graphics.UI.Fungen.Map.Tile
+  Graphics.UI.Fungen.Map.TileMatrix
+module dependencies: Graphics.UI.Fungen.Types
+                     Graphics.UI.Fungen.Util
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      Win32-2.3.1.0@Win32_ELFLzTRksT8Dql3wobiWvb
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Format.Parse
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Types 266c0848bd0d02b9711b437939844328
+  exports: 5a8515e956ff2a99708d0d74d12ae2e4
+  Point2D 7c3021d57c8a65dc6847d3db8a1deabf
+import  -/  Graphics.UI.Fungen.Util 1dc50c7d9817175bd0524f70badc9c85
+  exports: d89e4436dc42c1dda1231ce02c7c72ce
+  bindTexture c20895f26eb006680680a7b585b35ee0
+import  -/  OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp:Graphics.GL.Types dcfcd78bfbb0424c346b4cc12e92f0c2
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL fd51d1cc1b32b2dc8d731f8d5809eb7e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.BeginEnd 90bb8e84f50ad536a16d16a8eee4680c
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Capability 719a1fa65ad364eca0fb2ea42f5a7b39
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.CoordTrans 8b660450943639e0aadeddc7e820344c
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Framebuffer a303cd2d220e5a06dbc6cc81d04bc783
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.MatrixComponent 8407d7da93b3619788dfca1621ff0c7a
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.PrimitiveMode 5072e3d41ff0bcedd3764065cdbd131d
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Tensor 40e4e1c069a8aa7ff4790f79e34bd27f
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.Application 439a13ae7a18f6b55e656be135da9842
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.TextureObject d26537372ba973dddf8ce811898bbb6e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.TextureTarget 18d8ebf6fe04879a681c545fd1cd75fd
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexAttributes 05bcf4807149f18b48a9344316439f52
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexSpec 1b647f635f79bd7946e79b4162a96f2a
+import  -/  StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy:Data.StateVar a47bcf36d75f50e1f83a933cd25c1485
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+129511479fca9620d36aa6f020163837
+  $wa ::
+    GHC.Prim.Float#
+    -> GHC.Prim.Float#
+    -> GHC.Prim.Float#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4, Strictness: <L,U><L,U><L,U><L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Float#
+                   ww1 :: GHC.Prim.Float#
+                   ww2 :: GHC.Prim.Float#
+                   w :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Graphics.GL.Functions.F02.ptr_glClearColor of ds5 { GHC.Ptr.FunPtr ds6 ->
+                 case {__dyn_ccall_GC "" GHC.Prim.Addr#
+                                         -> GHC.Prim.Float#
+                                         -> GHC.Prim.Float#
+                                         -> GHC.Prim.Float#
+                                         -> GHC.Prim.Float#
+                                         -> GHC.Prim.State# GHC.Prim.RealWorld
+                                         -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                        ds6
+                        ww
+                        ww1
+                        ww2
+                        __float 1.0
+                        w of wild { (##) ds15 ->
+                 case Graphics.GL.Functions.F02.ptr_glClear of ds2 { GHC.Ptr.FunPtr ds3 ->
+                 case Graphics.Rendering.OpenGL.GL.Framebuffer.$wgo
+                        Graphics.UI.Fungen.Map.clearGameScreen2
+                        __word 0 of ww3 { DEFAULT ->
+                 case {__dyn_ccall_GC "" GHC.Prim.Addr#
+                                         -> GHC.Prim.Word#
+                                         -> GHC.Prim.State# GHC.Prim.RealWorld
+                                         -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                        ds3
+                        ww3
+                        ds15 of wild1 { (##) ds1 ->
+                 (# ds1, GHC.Tuple.() #) } } } } }) -}
+0adf3a8fb470a64bee65fc3ead941da5
+  $wnewMapList ::
+    [Graphics.UI.Fungen.Map.GameMap t]
+    -> Graphics.UI.Fungen.Map.GameMap t
+    -> GHC.Prim.Int#
+    -> (# Graphics.UI.Fungen.Map.GameMap t,
+          [Graphics.UI.Fungen.Map.GameMap t] #)
+  {- Arity: 3, Strictness: <S,1*U><L,U><S,1*U>, Inline: [0] -}
+4ae10670b490c48f114f66cc9af15284
+  $wtileMap ::
+    Graphics.UI.Fungen.Map.TileMatrix t
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> (# Graphics.UI.Fungen.Map.TileMatrix t,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D #)
+  {- Arity: 3, Strictness: <S,1*U><L,U(U)><L,U(U)>, Inline: [0],
+     Unfolding: (\ @ t
+                   w :: Graphics.UI.Fungen.Map.TileMatrix t
+                   w1 :: Graphics.GL.Types.GLdouble
+                   w2 :: Graphics.GL.Types.GLdouble ->
+                 case w of wild {
+                   []
+                   -> case Graphics.UI.Fungen.Map.tileMap1
+                      ret_ty (# Graphics.UI.Fungen.Map.TileMatrix t,
+                                Graphics.UI.Fungen.Types.Point2D,
+                                Graphics.UI.Fungen.Types.Point2D,
+                                Graphics.UI.Fungen.Types.Point2D,
+                                Graphics.UI.Fungen.Types.Point2D #)
+                      of {}
+                   : m ms
+                   -> case Graphics.UI.Fungen.Map.matrixOkAux
+                             @ t
+                             (case GHC.List.$wlenAcc
+                                     @ (GHC.Types.Int, GHC.Types.Bool, GHC.Types.Float, t)
+                                     m
+                                     0 of ww2 { DEFAULT ->
+                              GHC.Types.I# ww2 })
+                             ms of wild1 {
+                        GHC.Types.False
+                        -> case Graphics.UI.Fungen.Map.tileMap1
+                           ret_ty (# Graphics.UI.Fungen.Map.TileMatrix t,
+                                     Graphics.UI.Fungen.Types.Point2D,
+                                     Graphics.UI.Fungen.Types.Point2D,
+                                     Graphics.UI.Fungen.Types.Point2D,
+                                     Graphics.UI.Fungen.Types.Point2D #)
+                           of {}
+                        GHC.Types.True
+                        -> (# wild,
+                              (w1, w2),
+                              Graphics.UI.Fungen.Map.textureMap1,
+                              Graphics.UI.Fungen.Map.textureMap1,
+                              (case GHC.List.$wlenAcc
+                                      @ (GHC.Types.Int, GHC.Types.Bool, GHC.Types.Float, t)
+                                      m
+                                      0 of ww2 { DEFAULT ->
+                               case w1 of wild2 { GHC.Types.D# y ->
+                               GHC.Types.D# (GHC.Prim.*## (GHC.Prim.int2Double# ww2) y) } },
+                               case GHC.List.$wlenAcc
+                                      @ [Graphics.UI.Fungen.Map.Tile t]
+                                      wild
+                                      0 of ww2 { DEFAULT ->
+                               case w2 of wild2 { GHC.Types.D# y ->
+                               GHC.Types.D#
+                                 (GHC.Prim.*## (GHC.Prim.int2Double# ww2) y) } }) #) } }) -}
+d60b958266525b239e58ec4acbb2bdbe
+  data GameMap t
+    = ColorMap (Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+                  Graphics.GL.Types.GLclampf)
+               Graphics.UI.Fungen.Types.Point2D
+    | TextureMap GHC.Types.Int
+                 Graphics.UI.Fungen.Types.Point2D
+                 Graphics.UI.Fungen.Types.Point2D
+                 Graphics.UI.Fungen.Types.Point2D
+                 Graphics.UI.Fungen.Types.Point2D
+    | TileMap (Graphics.UI.Fungen.Map.TileMatrix t)
+              Graphics.UI.Fungen.Types.Point2D
+              Graphics.UI.Fungen.Types.Point2D
+              Graphics.UI.Fungen.Types.Point2D
+              Graphics.UI.Fungen.Types.Point2D
+    | MultiMap [Graphics.UI.Fungen.Map.GameMap t] GHC.Types.Int
+9f9f40d53b20d0b3ad13f51ca2e8a491
+  type Tile t = (GHC.Types.Int, GHC.Types.Bool, GHC.Types.Float, t)
+d5b00eb6a69ab2e2c137b1b8a5cd3a5d
+  type TileLine t = [Graphics.UI.Fungen.Map.Tile t]
+6c2f0648c4ca2f6e0a470c382e289fe2
+  type TileMatrix t = [[Graphics.UI.Fungen.Map.Tile t]]
+bfd284c0d4a256e0794f4b0b59ff9bcc
+  clearGameScreen ::
+    Graphics.GL.Types.GLclampf
+    -> Graphics.GL.Types.GLclampf
+    -> Graphics.GL.Types.GLclampf
+    -> GHC.Types.IO ()
+  {- Arity: 4, Strictness: <S,1*U(U)><S,1*U(U)><S,1*U(U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Map.clearGameScreen1
+                  `cast`
+                (<Graphics.GL.Types.GLclampf>_R
+                 ->_R <Graphics.GL.Types.GLclampf>_R
+                 ->_R <Graphics.GL.Types.GLclampf>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+9ec850ee3e0269140bd07adc86c37d9d
+  clearGameScreen1 ::
+    Graphics.GL.Types.GLclampf
+    -> Graphics.GL.Types.GLclampf
+    -> Graphics.GL.Types.GLclampf
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4, Strictness: <S,1*U(U)><S,1*U(U)><S,1*U(U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ w :: Graphics.GL.Types.GLclampf
+                   w1 :: Graphics.GL.Types.GLclampf
+                   w2 :: Graphics.GL.Types.GLclampf
+                   w3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case w of ww { GHC.Types.F# ww1 ->
+                 case w1 of ww2 { GHC.Types.F# ww3 ->
+                 case w2 of ww4 { GHC.Types.F# ww5 ->
+                 Graphics.UI.Fungen.Map.$wa ww1 ww3 ww5 w3 } } }) -}
+c2fef53a65041e6e086bf26360de39a0
+  clearGameScreen2 ::
+    [Graphics.Rendering.OpenGL.GL.Framebuffer.ClearBuffer]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ Graphics.Rendering.OpenGL.GL.Framebuffer.ClearBuffer
+                   Graphics.Rendering.OpenGL.GL.Framebuffer.ColorBuffer
+                   (GHC.Types.[]
+                      @ Graphics.Rendering.OpenGL.GL.Framebuffer.ClearBuffer)) -}
+423efec46466fcc75ae6fd3e2ce47272
+  colorMap ::
+    Graphics.GL.Types.GLclampf
+    -> Graphics.GL.Types.GLclampf
+    -> Graphics.GL.Types.GLclampf
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.UI.Fungen.Map.GameMap t
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <L,1*U(U)><L,1*U(U)><L,1*U(U)><L,U><L,U>m1,
+     Unfolding: InlineRule (5, True, False)
+                (\ @ t
+                   r :: Graphics.GL.Types.GLclampf
+                   g :: Graphics.GL.Types.GLclampf
+                   b :: Graphics.GL.Types.GLclampf
+                   sX :: Graphics.GL.Types.GLdouble
+                   sY :: Graphics.GL.Types.GLdouble ->
+                 Graphics.UI.Fungen.Map.ColorMap
+                   @ t
+                   (case r of dt { GHC.Types.F# ipv ->
+                    case g of dt1 { GHC.Types.F# ipv1 ->
+                    case b of dt2 { GHC.Types.F# ipv2 ->
+                    Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+                      @ Graphics.GL.Types.GLclampf
+                      dt
+                      dt1
+                      dt2
+                      Graphics.UI.Fungen.Map.colorMap1 } } })
+                   (sX, sY)) -}
+3c046339cc78cda8b548d5594768fd2a
+  colorMap1 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.F# __float 1.0) -}
+318fd1f84b08ef9498342581cd546af9
+  drawGameMap ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Types.Point2D
+    -> [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.Types.IO ()
+  {- Arity: 4, Strictness: <S,1*U><L,1*U(U(U),1*U(U))><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Map.drawGameMap1
+                  `cast`
+                (forall t.
+                 <Graphics.UI.Fungen.Map.GameMap t>_R
+                 ->_R <Graphics.UI.Fungen.Types.Point2D>_R
+                 ->_R <[Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+08c8a792d6916c3cb0af71f8abaecd64
+  drawGameMap1 ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Types.Point2D
+    -> [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4, Strictness: <S,1*U><L,1*U(U(U),1*U(U))><L,U><L,U> -}
+963a08164f769a1e1f00701aa73f0636
+  getCurrentMap ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Map.GameMap t
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   DEFAULT -> Graphics.UI.Fungen.Map.getCurrentMap1 @ t
+                   Graphics.UI.Fungen.Map.MultiMap l i
+                   -> GHC.List.!! @ (Graphics.UI.Fungen.Map.GameMap t) l i }) -}
+645bc1e1a4a815767df2981b1bb838d9
+  getCurrentMap1 :: Graphics.UI.Fungen.Map.GameMap t
+  {- Strictness: b -}
+10b40b8af9095b5f815d44f1747fe73c
+  getMapSize ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Types.Point2D
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   Graphics.UI.Fungen.Map.ColorMap ds1 s -> s
+                   Graphics.UI.Fungen.Map.TextureMap ds1 ds2 ds3 ds4 s -> s
+                   Graphics.UI.Fungen.Map.TileMap ds1 ds2 ds3 ds4 s -> s
+                   Graphics.UI.Fungen.Map.MultiMap ds1 ds2
+                   -> Graphics.UI.Fungen.Map.getMapSize1 }) -}
+2f963ed22338495c1bebc54f91f8def1
+  getMapSize1 :: Graphics.UI.Fungen.Types.Point2D
+  {- Strictness: b -}
+62bd64a7e9bb57b5f14df112e65be4c3
+  getTileBlocked :: Graphics.UI.Fungen.Map.Tile t -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSLL),1*U(A,1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: (GHC.Types.Int, GHC.Types.Bool, GHC.Types.Float, t) ->
+                 case ds of wild { (,,,) ds1 b ds2 ds3 -> b }) -}
+be801e79c9089ba096d3b697c0006120
+  getTileMapScroll ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Types.Point2D
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   DEFAULT -> Graphics.UI.Fungen.Map.getTileMapScroll1
+                   Graphics.UI.Fungen.Map.TileMap ds1 ds2 s ds3 ds4 -> s }) -}
+90ba190b5d802e409934a9570140f99e
+  getTileMapScroll1 :: Graphics.UI.Fungen.Types.Point2D
+  {- Strictness: b -}
+02417c65e63d931ffbb13239afd1d4df
+  getTileMapSize ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Types.Point2D
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   DEFAULT -> Graphics.UI.Fungen.Map.getTileMapSize1
+                   Graphics.UI.Fungen.Map.TileMap ds1 ds2 ds3 ds4 s -> s }) -}
+35d7a9825a3f1af1b2ecc22c3f13dee0
+  getTileMapSize1 :: Graphics.UI.Fungen.Types.Point2D
+  {- Strictness: b -}
+e9faea82bbdb22ac10ce5e1366f1d25d
+  getTileMapTileMatrix ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Map.TileMatrix t
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   DEFAULT -> Graphics.UI.Fungen.Map.getTileMapTileMatrix1 @ t
+                   Graphics.UI.Fungen.Map.TileMap m ds1 ds2 ds3 ds4 -> m }) -}
+dc40111804e4cb00e94ec71e5e0f15ac
+  getTileMapTileMatrix1 :: Graphics.UI.Fungen.Map.TileMatrix t
+  {- Strictness: b -}
+26c403715a45d220f4aeb106709f7f0a
+  getTileMapTileSize ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Types.Point2D
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   DEFAULT -> Graphics.UI.Fungen.Map.getTileMapTileSize1
+                   Graphics.UI.Fungen.Map.TileMap ds1 ts ds2 ds3 ds4 -> ts }) -}
+80780c26a4f0034ba5ae43d3b13a3a1c
+  getTileMapTileSize1 :: Graphics.UI.Fungen.Types.Point2D
+  {- Strictness: b -}
+bce46838f59b0a638c8b56b7fc2536ba
+  getTileMoveCost :: Graphics.UI.Fungen.Map.Tile t -> GHC.Types.Float
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLSL),1*U(A,A,1*U(U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: (GHC.Types.Int, GHC.Types.Bool, GHC.Types.Float, t) ->
+                 case ds of wild { (,,,) ds1 ds2 m ds3 -> m }) -}
+cbd7221e3ec6547df8c5f4972f4e871c
+  getTilePictureIndex ::
+    Graphics.UI.Fungen.Map.Tile t -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLLL),1*U(1*U(U),A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: (GHC.Types.Int, GHC.Types.Bool, GHC.Types.Float, t) ->
+                 case ds of wild { (,,,) i ds1 ds2 ds3 -> i }) -}
+f3972e99201a1e1e51d26db685d8143a
+  getTileSpecialAttribute :: Graphics.UI.Fungen.Map.Tile t -> t
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLLS),1*U(A,A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: (GHC.Types.Int, GHC.Types.Bool, GHC.Types.Float, t) ->
+                 case ds of wild { (,,,) ds1 ds2 ds3 t1 -> t1 }) -}
+f16fe25a95f58a39b47fe798244b06d4
+  isMultiMap :: Graphics.UI.Fungen.Map.GameMap t -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   DEFAULT -> GHC.Types.False
+                   Graphics.UI.Fungen.Map.MultiMap ds1 ds2 -> GHC.Types.True }) -}
+96c9c37af83ce317fc7a938e636948f3
+  isTileMap :: Graphics.UI.Fungen.Map.GameMap t -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   DEFAULT -> GHC.Types.False
+                   Graphics.UI.Fungen.Map.TileMap ds1 ds2 ds3 ds4 ds5
+                   -> GHC.Types.True }) -}
+0472076f93b82cc5b49e595bc66265ec
+  mapListContainsMultiMap ::
+    [Graphics.UI.Fungen.Map.GameMap t] -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+32366361671b2813ed85ed66adc114a4
+  matrixOkAux ::
+    GHC.Types.Int
+    -> Graphics.UI.Fungen.Map.TileMatrix t -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><S,1*U> -}
+f95f42d1f66174bc33ff683f545f4203
+  multiMap ::
+    [Graphics.UI.Fungen.Map.GameMap t]
+    -> GHC.Types.Int -> Graphics.UI.Fungen.Map.GameMap t
+  {- Arity: 2, Strictness: <S,1*U><S,1*U(U)>m4, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   w :: [Graphics.UI.Fungen.Map.GameMap t]
+                   w1 :: GHC.Types.Int ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 case w of wild {
+                   []
+                   -> case Graphics.UI.Fungen.Map.multiMap3
+                      ret_ty (Graphics.UI.Fungen.Map.GameMap t)
+                      of {}
+                   : ipv ipv1
+                   -> case GHC.List.$wlenAcc
+                             @ (Graphics.UI.Fungen.Map.GameMap t)
+                             wild
+                             0 of ww2 { DEFAULT ->
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.>=# ww1 ww2) of wild1 {
+                        GHC.Types.False
+                        -> case Graphics.UI.Fungen.Map.mapListContainsMultiMap
+                                  @ t
+                                  wild of wild2 {
+                             GHC.Types.False
+                             -> Graphics.UI.Fungen.Map.MultiMap @ t wild (GHC.Types.I# ww1)
+                             GHC.Types.True
+                             -> case Graphics.UI.Fungen.Map.multiMap2
+                                ret_ty (Graphics.UI.Fungen.Map.GameMap t)
+                                of {} }
+                        GHC.Types.True
+                        -> case Graphics.UI.Fungen.Map.multiMap1
+                           ret_ty (Graphics.UI.Fungen.Map.GameMap t)
+                           of {} } } } }) -}
+24303d9eb02eb3d873d37b53cae7cce2
+  multiMap1 :: Graphics.UI.Fungen.Map.GameMap t
+  {- Strictness: b -}
+d9232797cd5428fe391918b5c99e402d
+  multiMap2 :: Graphics.UI.Fungen.Map.GameMap t
+  {- Strictness: b -}
+9a676a2bb12912fad0c80eaf0520d226
+  multiMap3 :: Graphics.UI.Fungen.Map.GameMap t
+  {- Strictness: b -}
+d9afd0206169e0cf31fccc635346a4ae
+  newMapList ::
+    [Graphics.UI.Fungen.Map.GameMap t]
+    -> Graphics.UI.Fungen.Map.GameMap t
+    -> GHC.Types.Int
+    -> [Graphics.UI.Fungen.Map.GameMap t]
+  {- Arity: 3, Strictness: <S,1*U><L,U><S(S),1*U(1*U)>m2,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ t
+                   w :: [Graphics.UI.Fungen.Map.GameMap t]
+                   w1 :: Graphics.UI.Fungen.Map.GameMap t
+                   w2 :: GHC.Types.Int ->
+                 case w2 of ww { GHC.Types.I# ww1 ->
+                 case Graphics.UI.Fungen.Map.$wnewMapList
+                        @ t
+                        w
+                        w1
+                        ww1 of ww2 { (#,#) ww3 ww4 ->
+                 GHC.Types.: @ (Graphics.UI.Fungen.Map.GameMap t) ww3 ww4 } }) -}
+9fd78adb82b562d222f578f7f15fb6c9
+  textureMap ::
+    GHC.Types.Int
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.UI.Fungen.Map.GameMap t
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,U><L,U><L,U><L,U><L,U>m2,
+     Unfolding: InlineRule (5, True, False)
+                (\ @ t
+                   texId :: GHC.Types.Int
+                   tX :: Graphics.GL.Types.GLdouble
+                   tY :: Graphics.GL.Types.GLdouble
+                   sX :: Graphics.GL.Types.GLdouble
+                   sY :: Graphics.GL.Types.GLdouble ->
+                 Graphics.UI.Fungen.Map.TextureMap
+                   @ t
+                   texId
+                   (tX, tY)
+                   Graphics.UI.Fungen.Map.textureMap1
+                   Graphics.UI.Fungen.Map.textureMap1
+                   (sX, sY)) -}
+a44c944fb03dfa2de59f917b58e2bf1a
+  textureMap1 :: (GHC.Types.Double, GHC.Types.Double)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((Graphics.UI.Fungen.Map.textureMap2,
+                  Graphics.UI.Fungen.Map.textureMap2)) -}
+812aab14f9157f54dbe183e5f11a2f91
+  textureMap2 :: GHC.Types.Double
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 0.0) -}
+6df820903a3575c10d843969dc0e48f6
+  tileMap ::
+    Graphics.UI.Fungen.Map.TileMatrix t
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.UI.Fungen.Map.GameMap t
+  {- Arity: 3, Strictness: <S,1*U><L,U(U)><L,U(U)>m3,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ t
+                   w :: Graphics.UI.Fungen.Map.TileMatrix t
+                   w1 :: Graphics.GL.Types.GLdouble
+                   w2 :: Graphics.GL.Types.GLdouble ->
+                 case Graphics.UI.Fungen.Map.$wtileMap
+                        @ t
+                        w
+                        w1
+                        w2 of ww { (#,,,,#) ww1 ww2 ww3 ww4 ww5 ->
+                 Graphics.UI.Fungen.Map.TileMap @ t ww1 ww2 ww3 ww4 ww5 }) -}
+2ba6681de8d76a525ec421d426489864
+  tileMap1 :: Graphics.UI.Fungen.Map.GameMap t
+  {- Strictness: b -}
+689abd8eab31d335f2c854cf9ea57b5b
+  updateCurrentIndex ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> GHC.Types.Int -> Graphics.UI.Fungen.Map.GameMap t
+  {- Arity: 2, Strictness: <S,1*U><S,1*U(U)>m4, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t w :: Graphics.UI.Fungen.Map.GameMap t w1 :: GHC.Types.Int ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 case w of wild {
+                   DEFAULT
+                   -> case Graphics.UI.Fungen.Map.updateCurrentIndex2
+                      ret_ty (Graphics.UI.Fungen.Map.GameMap t)
+                      of {}
+                   Graphics.UI.Fungen.Map.MultiMap mapList ds
+                   -> case GHC.List.$wlenAcc
+                             @ (Graphics.UI.Fungen.Map.GameMap t)
+                             mapList
+                             0 of ww2 { DEFAULT ->
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.>=# ww1 ww2) of wild1 {
+                        GHC.Types.False
+                        -> Graphics.UI.Fungen.Map.MultiMap @ t mapList (GHC.Types.I# ww1)
+                        GHC.Types.True
+                        -> case Graphics.UI.Fungen.Map.updateCurrentIndex1
+                           ret_ty (Graphics.UI.Fungen.Map.GameMap t)
+                           of {} } } } }) -}
+b2410aea113a00140a3e31e91009c749
+  updateCurrentIndex1 :: Graphics.UI.Fungen.Map.GameMap t
+  {- Strictness: b -}
+c148321fb81ce753cb666672fe3c7b77
+  updateCurrentIndex2 :: Graphics.UI.Fungen.Map.GameMap t
+  {- Strictness: b -}
+1184421eb1440f9566a76a27c14a4942
+  updateCurrentMap ::
+    Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Map.GameMap t
+    -> Graphics.UI.Fungen.Map.GameMap t
+  {- Arity: 2, Strictness: <S,1*U><L,U>m4,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   ds :: Graphics.UI.Fungen.Map.GameMap t
+                   newMap :: Graphics.UI.Fungen.Map.GameMap t ->
+                 case ds of wild {
+                   DEFAULT -> Graphics.UI.Fungen.Map.updateCurrentMap1 @ t
+                   Graphics.UI.Fungen.Map.MultiMap l i
+                   -> Graphics.UI.Fungen.Map.MultiMap
+                        @ t
+                        (Graphics.UI.Fungen.Map.newMapList @ t l newMap i)
+                        i }) -}
+8c9221a164517fd902149cb673c846e7
+  updateCurrentMap1 :: Graphics.UI.Fungen.Map.GameMap t
+  {- Strictness: b -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

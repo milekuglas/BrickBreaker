@@ -1,0 +1,192 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:30.8105252 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Input 7103
+  interface hash: 35456563b8508bcdda3de5d8928d2c47
+  ABI hash: 2c76f29f20da1e483a5b20ff4a006f1b
+  export-list hash: 79aaddf98b30257710e9fc34487852ef
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Input.funInitInput
+  Graphics.UI.Fungen.Input.InputBinding
+  Graphics.UI.Fungen.Input.InputHandler
+  Graphics.UI.GLUT.Input.KeyEvent{Graphics.UI.GLUT.Input.Press Graphics.UI.GLUT.Input.Release Graphics.UI.GLUT.Input.StillDown}
+  Graphics.UI.GLUT.Callbacks.Window.Key{Graphics.UI.GLUT.Callbacks.Window.Char Graphics.UI.GLUT.Callbacks.Window.MouseButton Graphics.UI.GLUT.Callbacks.Window.SpecialKey}
+  Graphics.UI.GLUT.Callbacks.Window.Modifiers{Graphics.UI.GLUT.Callbacks.Window.Modifiers Graphics.UI.GLUT.Callbacks.Window.alt Graphics.UI.GLUT.Callbacks.Window.ctrl Graphics.UI.GLUT.Callbacks.Window.shift}
+  Graphics.UI.GLUT.Callbacks.Window.SpecialKey{Graphics.UI.GLUT.Callbacks.Window.KeyAltL Graphics.UI.GLUT.Callbacks.Window.KeyAltR Graphics.UI.GLUT.Callbacks.Window.KeyBegin Graphics.UI.GLUT.Callbacks.Window.KeyCtrlL Graphics.UI.GLUT.Callbacks.Window.KeyCtrlR Graphics.UI.GLUT.Callbacks.Window.KeyDelete Graphics.UI.GLUT.Callbacks.Window.KeyDown Graphics.UI.GLUT.Callbacks.Window.KeyEnd Graphics.UI.GLUT.Callbacks.Window.KeyF1 Graphics.UI.GLUT.Callbacks.Window.KeyF10 Graphics.UI.GLUT.Callbacks.Window.KeyF11 Graphics.UI.GLUT.Callbacks.Window.KeyF12 Graphics.UI.GLUT.Callbacks.Window.KeyF2 Graphics.UI.GLUT.Callbacks.Window.KeyF3 Graphics.UI.GLUT.Callbacks.Window.KeyF4 Graphics.UI.GLUT.Callbacks.Window.KeyF5 Graphics.UI.GLUT.Callbacks.Window.KeyF6 Graphics.UI.GLUT.Callbacks.Window.KeyF7 Graphics.UI.GLUT.Callbacks.Window.KeyF8 Graphics.UI.GLUT.Callbacks.Window.KeyF9 Graphics.UI.GLUT.Callbacks.Window.KeyHome Graphics.UI.GLUT.Callbacks.Window.KeyInsert Graphics.UI.GLUT.Callbacks.Window.KeyLeft Graphics.UI.GLUT.Callbacks.Window.KeyNumLock Graphics.UI.GLUT.Callbacks.Window.KeyPageDown Graphics.UI.GLUT.Callbacks.Window.KeyPageUp Graphics.UI.GLUT.Callbacks.Window.KeyRight Graphics.UI.GLUT.Callbacks.Window.KeyShiftL Graphics.UI.GLUT.Callbacks.Window.KeyShiftR Graphics.UI.GLUT.Callbacks.Window.KeyUnknown Graphics.UI.GLUT.Callbacks.Window.KeyUp}
+  Graphics.UI.GLUT.Types.MouseButton{Graphics.UI.GLUT.Types.AdditionalButton Graphics.UI.GLUT.Types.LeftButton Graphics.UI.GLUT.Types.MiddleButton Graphics.UI.GLUT.Types.RightButton Graphics.UI.GLUT.Types.WheelDown Graphics.UI.GLUT.Types.WheelUp}
+  Graphics.Rendering.OpenGL.GL.CoordTrans.Position{Graphics.Rendering.OpenGL.GL.CoordTrans.Position}
+module dependencies: Graphics.UI.Fungen.Game
+                     Graphics.UI.Fungen.Loader Graphics.UI.Fungen.Map
+                     Graphics.UI.Fungen.Objects Graphics.UI.Fungen.Text
+                     Graphics.UI.Fungen.Types Graphics.UI.Fungen.Util
+                     Graphics.UI.GLUT.Input
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      Win32-2.3.1.0@Win32_ELFLzTRksT8Dql3wobiWvb
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Format.Parse
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Game 242c57370acd0bff1108100111d54a9f
+  exports: 7d2e43115f047893962699afc7a6a4c0
+  Game b9dc93fcbb36f0b7b05b77ba74203b18
+  IOGame 023f764656429577791b816b79fd1cc6
+  runIOGameM ce39882368142e5fdb4a00f10a3529ed
+import  -/  Graphics.UI.GLUT.Input d5a6dc920e7b171d14a51dcc1a3bd7bb
+  exports: 88721ad78cce2652fe56ee745dd6d32a
+  KeyBinder f0e84d45d3c922d179551dfba797f6f0
+  KeyEvent 7a97a96b9347cd17b6202b148091ceab
+  Press 835c4ebc87449794097e463a98b5dbb8
+  Release 359dfff8060f50319ad75ce1eb91c103
+  StillDown 2bf3672a29944051ab5279fc689c8e98
+  StillDownHandler 0ef95b39d3e97f5aa68b4e20b2bd555b
+  glutInitInput b56123c0afaf0421fb18e50c8c380ce2
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT 5f96c81bc741688b59291cc04889046c
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Callbacks.Window 711d4e76e4c763d10dcd31a14d4082cb
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Types b46228741128723d3778ef4a3a7c2d14
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.CoordTrans 8b660450943639e0aadeddc7e820344c
+import  -/  base-4.8.2.0:Data.Traversable 7576318f4ef8587ad947f87012b65abf
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+3152bcb91b04ffe477f59685a4e15520
+  type InputBinding t s u v =
+    (Graphics.UI.GLUT.Callbacks.Window.Key,
+     Graphics.UI.GLUT.Input.KeyEvent,
+     Graphics.UI.Fungen.Input.InputHandler t s u v)
+c94ebcb1e71c05722a670188bb206b7b
+  type InputHandler t s u v =
+    Graphics.UI.GLUT.Callbacks.Window.Modifiers
+    -> Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+    -> Graphics.UI.Fungen.Game.IOGame t s u v ()
+d740bd1eee3eda03b75c231b66be5bb7
+  funInitInput ::
+    [Graphics.UI.Fungen.Input.InputBinding t s u v]
+    -> Graphics.UI.Fungen.Game.Game t s u v
+    -> GHC.Types.IO
+         (Graphics.UI.GLUT.Input.KeyBinder,
+          Graphics.UI.GLUT.Input.StillDownHandler)
+  {- Arity: 3, Strictness: <L,1*U><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Input.funInitInput1
+                  `cast`
+                (forall t s u v.
+                 <[Graphics.UI.Fungen.Input.InputBinding t s u v]>_R
+                 ->_R <Graphics.UI.Fungen.Game.Game t s u v>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <(Graphics.UI.GLUT.Input.KeyBinder,
+                                 Graphics.UI.GLUT.Input.StillDownHandler)>_R)) -}
+109f15270185590f42dba38e9d3f3c81
+  funInitInput1 ::
+    [Graphics.UI.Fungen.Input.InputBinding t s u v]
+    -> Graphics.UI.Fungen.Game.Game t s u v
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Graphics.UI.GLUT.Input.KeyBinder,
+           Graphics.UI.GLUT.Input.StillDownHandler) #)
+  {- Arity: 3, Strictness: <L,1*U><L,U><L,U>,
+     Unfolding: (\ @ t
+                   @ s
+                   @ u
+                   @ v
+                   bindings :: [Graphics.UI.Fungen.Input.InputBinding t s u v]
+                   game :: Graphics.UI.Fungen.Game.Game t s u v
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Graphics.UI.GLUT.Input.glutInitInput1
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild { (,) glutBindKey glutStillDown ->
+                 letrec {
+                   a1 :: [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                           Graphics.UI.GLUT.Input.KeyEvent,
+                           Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                           -> Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                           -> Graphics.UI.Fungen.Game.IOGame t s u v ())]
+                         -> GHC.Prim.State# GHC.Prim.RealWorld
+                         -> (# GHC.Prim.State# GHC.Prim.RealWorld, [()] #)
+                     {- Arity: 2, Strictness: <S,1*U><L,U> -}
+                   = \ ds :: [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                               Graphics.UI.GLUT.Input.KeyEvent,
+                               Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                               -> Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                               -> Graphics.UI.Fungen.Game.IOGame t s u v ())]
+                       eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                     case ds of wild1 {
+                       [] -> (# eta1, GHC.Types.[] @ () #)
+                       : y ys
+                       -> case y of wild2 { (,,) key keyEvent inputHandler ->
+                          case (glutBindKey
+                                  key
+                                  keyEvent
+                                  (GHC.Base.Just
+                                     @ Graphics.UI.GLUT.Input.InputHandler
+                                     (\ mods :: Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                                        pos :: Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                                        s1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                      case ((inputHandler mods pos)
+                                              `cast`
+                                            (Graphics.UI.Fungen.Game.NTCo:IOGame[0]
+                                                 <t>_R <s>_R <u>_R <v>_R <()>_R)
+                                              game)
+                                             `cast`
+                                           (GHC.Types.NTCo:IO[0]
+                                                <(Graphics.UI.Fungen.Game.Game t s u v, ())>_R)
+                                             s1 of ds2 { (#,#) ipv2 ipv3 ->
+                                      (# ipv2, GHC.Tuple.() #) })
+                                       `cast`
+                                     (<Graphics.UI.GLUT.Callbacks.Window.Modifiers>_R
+                                      ->_R <Graphics.Rendering.OpenGL.GL.CoordTrans.Position>_R
+                                      ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))))
+                                 `cast`
+                               (GHC.Types.NTCo:IO[0] <()>_R)
+                                 eta1 of ds2 { (#,#) ipv2 ipv3 ->
+                          case a1 ys ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                          (# ipv4, GHC.Types.: @ () ipv3 ipv5 #) } } } }
+                 } in
+                 case a1 bindings ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 (# ipv2, wild #) } } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

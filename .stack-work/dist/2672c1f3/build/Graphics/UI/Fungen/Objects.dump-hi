@@ -1,0 +1,1157 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:28.6721003 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Objects 7103
+  interface hash: fd947c980776db19ffa995eeb8a0caf3
+  ABI hash: e6cadc642ca019aab8b39b73fb90f14a
+  export-list hash: 9c33ce45a7d5b7d445364566939c9b1b
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Objects.addObjectsToManager
+  Graphics.UI.Fungen.Objects.destroyGameObject
+  Graphics.UI.Fungen.Objects.drawGameObject
+  Graphics.UI.Fungen.Objects.drawGameObjects
+  Graphics.UI.Fungen.Objects.findObjectFromId
+  Graphics.UI.Fungen.Objects.getGameObjectAsleep
+  Graphics.UI.Fungen.Objects.getGameObjectAttribute
+  Graphics.UI.Fungen.Objects.getGameObjectId
+  Graphics.UI.Fungen.Objects.getGameObjectManagerName
+  Graphics.UI.Fungen.Objects.getGameObjectName
+  Graphics.UI.Fungen.Objects.getGameObjectPosition
+  Graphics.UI.Fungen.Objects.getGameObjectSize
+  Graphics.UI.Fungen.Objects.getGameObjectSpeed
+  Graphics.UI.Fungen.Objects.getObjectManagerCounter
+  Graphics.UI.Fungen.Objects.getObjectManagerName
+  Graphics.UI.Fungen.Objects.getObjectManagerObjects
+  Graphics.UI.Fungen.Objects.moveGameObjects
+  Graphics.UI.Fungen.Objects.object
+  Graphics.UI.Fungen.Objects.objectGroup
+  Graphics.UI.Fungen.Objects.searchGameObject
+  Graphics.UI.Fungen.Objects.searchObjectManager
+  Graphics.UI.Fungen.Objects.updateObject
+  Graphics.UI.Fungen.Objects.updateObjectAsleep
+  Graphics.UI.Fungen.Objects.updateObjectAttribute
+  Graphics.UI.Fungen.Objects.updateObjectPicture
+  Graphics.UI.Fungen.Objects.updateObjectPosition
+  Graphics.UI.Fungen.Objects.updateObjectSize
+  Graphics.UI.Fungen.Objects.updateObjectSpeed
+  Graphics.UI.Fungen.Objects.FillMode{Graphics.UI.Fungen.Objects.Filled Graphics.UI.Fungen.Objects.Unfilled}
+  Graphics.UI.Fungen.Objects.GameObject
+  Graphics.UI.Fungen.Objects.ObjectManager
+  Graphics.UI.Fungen.Objects.ObjectPicture{Graphics.UI.Fungen.Objects.Basic Graphics.UI.Fungen.Objects.Tex}
+  Graphics.UI.Fungen.Objects.Primitive{Graphics.UI.Fungen.Objects.Circle Graphics.UI.Fungen.Objects.Polyg}
+module dependencies: Graphics.UI.Fungen.Types
+                     Graphics.UI.Fungen.Util
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      Win32-2.3.1.0@Win32_ELFLzTRksT8Dql3wobiWvb
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Format.Parse
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Types 266c0848bd0d02b9711b437939844328
+  exports: 5a8515e956ff2a99708d0d74d12ae2e4
+  Point2D 7c3021d57c8a65dc6847d3db8a1deabf
+import  -/  Graphics.UI.Fungen.Util 1dc50c7d9817175bd0524f70badc9c85
+  exports: d89e4436dc42c1dda1231ce02c7c72ce
+  bindTexture c20895f26eb006680680a7b585b35ee0
+  point2DtoVertex3 57c3c4696f3557b459a8c404ff8e615b
+  texCoord2 0e68b610762bea0f5f1724d259c56311
+  vertex3 3040b491fd5be7922e1720cd55223d7b
+import  -/  OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp:Graphics.GL.Types dcfcd78bfbb0424c346b4cc12e92f0c2
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL fd51d1cc1b32b2dc8d731f8d5809eb7e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.BeginEnd 90bb8e84f50ad536a16d16a8eee4680c
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Capability 719a1fa65ad364eca0fb2ea42f5a7b39
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.CoordTrans 8b660450943639e0aadeddc7e820344c
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.MatrixComponent 8407d7da93b3619788dfca1621ff0c7a
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.PrimitiveMode 5072e3d41ff0bcedd3764065cdbd131d
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Tensor 40e4e1c069a8aa7ff4790f79e34bd27f
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.Application 439a13ae7a18f6b55e656be135da9842
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.TextureObject d26537372ba973dddf8ce811898bbb6e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.TextureTarget 18d8ebf6fe04879a681c545fd1cd75fd
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexAttributes 05bcf4807149f18b48a9344316439f52
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexSpec 1b647f635f79bd7946e79b4162a96f2a
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GLU.Quadrics d3749c65221e49256f6e3c758f0da057
+import  -/  StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy:Data.StateVar a47bcf36d75f50e1f83a933cd25c1485
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:GHC.Enum debc6de3086023a15993ab0cecffb90b
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  integer-gmp-1.0.0.0:GHC.Integer.Type 906b37a40029a8b67c803fa4b303a827
+ad46ba7f648818082343d9fb53975f1b
+  $fEqFillMode :: GHC.Classes.Eq Graphics.UI.Fungen.Objects.FillMode
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Graphics.UI.Fungen.Objects.FillMode
+                  Graphics.UI.Fungen.Objects.$fEqFillMode_$c==
+                  Graphics.UI.Fungen.Objects.$fEqFillMode_$c/= -}
+ad46ba7f648818082343d9fb53975f1b
+  $fEqFillMode_$c/= ::
+    Graphics.UI.Fungen.Objects.FillMode
+    -> Graphics.UI.Fungen.Objects.FillMode -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a7 :: Graphics.UI.Fungen.Objects.FillMode
+                   b :: Graphics.UI.Fungen.Objects.FillMode ->
+                 case a7 of wild {
+                   Graphics.UI.Fungen.Objects.Filled
+                   -> case b of wild1 {
+                        Graphics.UI.Fungen.Objects.Filled -> GHC.Types.False
+                        Graphics.UI.Fungen.Objects.Unfilled -> GHC.Types.True }
+                   Graphics.UI.Fungen.Objects.Unfilled
+                   -> case b of wild1 {
+                        Graphics.UI.Fungen.Objects.Filled -> GHC.Types.True
+                        Graphics.UI.Fungen.Objects.Unfilled -> GHC.Types.False } }) -}
+ad46ba7f648818082343d9fb53975f1b
+  $fEqFillMode_$c== ::
+    Graphics.UI.Fungen.Objects.FillMode
+    -> Graphics.UI.Fungen.Objects.FillMode -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Graphics.UI.Fungen.Objects.FillMode
+                   ds1 :: Graphics.UI.Fungen.Objects.FillMode ->
+                 case ds of wild {
+                   Graphics.UI.Fungen.Objects.Filled
+                   -> case ds1 of wild1 {
+                        Graphics.UI.Fungen.Objects.Filled -> GHC.Types.True
+                        Graphics.UI.Fungen.Objects.Unfilled -> GHC.Types.False }
+                   Graphics.UI.Fungen.Objects.Unfilled
+                   -> case ds1 of wild1 {
+                        Graphics.UI.Fungen.Objects.Filled -> GHC.Types.False
+                        Graphics.UI.Fungen.Objects.Unfilled -> GHC.Types.True } }) -}
+a0b5044cad8cd6804733b227fb493e45
+  $wa ::
+    Graphics.UI.Fungen.Objects.GameObjectPicture
+    -> Graphics.UI.Fungen.Types.Point2D
+    -> GHC.Prim.Double#
+    -> GHC.Prim.Double#
+    -> [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 6,
+     Strictness: <S,1*U><L,1*U(1*U(U),1*U(U))><L,U><L,U><L,1*U><L,U>,
+     Inline: [0] -}
+e61fb5d4ba6f3bd64cf90086dc4d9bab
+  $wa1 ::
+    [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <S,1*U><L,U><L,U>, Inline: [0] -}
+3b8bdacb2c82323e2f69991ce55e6828
+  $waddObjectsToManager ::
+    [Graphics.UI.Fungen.Objects.GameObject t]
+    -> GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> (# Graphics.UI.Fungen.Objects.ObjectManager t,
+          [Graphics.UI.Fungen.Objects.ObjectManager t] #)
+  {- Arity: 3, Strictness: <L,U><S,U><S,1*U>, Inline: [0] -}
+c8c2c684bad2c4f0b19d461c9eca9449
+  $wdestroyGameObject ::
+    GHC.Base.String
+    -> GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> (# Graphics.UI.Fungen.Objects.ObjectManager t,
+          [Graphics.UI.Fungen.Objects.ObjectManager t] #)
+  {- Arity: 3, Strictness: <L,U><S,U><S,1*U>, Inline: [0] -}
+987d848c469bd164f1049e02d5a84df4
+  $wfindObjectFromIdAux ::
+    GHC.Integer.Type.Integer
+    -> GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> (# GHC.Integer.Type.Integer,
+          GHC.Base.String,
+          GHC.Base.String,
+          Graphics.UI.Fungen.Objects.GameObjectPicture,
+          GHC.Types.Bool,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D,
+          t #)
+  {- Arity: 3, Strictness: <S,U><S,U><S,1*U>, Inline: [0] -}
+69444ffaa642c1636c455fa1db93b173
+  $wgo ::
+    [Graphics.GL.Types.GLdouble]
+    -> GHC.Prim.Double# -> GHC.Prim.Double#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
+13e640dd4b8fdcf13eeb33b41e4973f0
+  $wgo1 ::
+    [Graphics.GL.Types.GLdouble]
+    -> GHC.Prim.Double# -> GHC.Prim.Double#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
+de4c22a539b964594e327f2e24832d5e
+  $wgo2 ::
+    [Graphics.GL.Types.GLdouble]
+    -> GHC.Prim.Double# -> GHC.Prim.Double#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
+25db8111fbe92de0bcff7a46168955db
+  $wgo3 ::
+    [Graphics.GL.Types.GLdouble]
+    -> GHC.Prim.Double# -> GHC.Prim.Double#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
+a8f565813bafbf1b84eb0d16ca612ab9
+  $wgo4 ::
+    [(Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)]
+    -> (# [Graphics.GL.Types.GLdouble], [Graphics.GL.Types.GLdouble] #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+62d2b669d2879de4d5ea1a330147afa1
+  $wobject ::
+    GHC.Base.String
+    -> Graphics.UI.Fungen.Objects.ObjectPicture
+    -> GHC.Types.Bool
+    -> (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+    -> (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+    -> t
+    -> (# GHC.Integer.Type.Integer,
+          GHC.Base.String,
+          GHC.Base.String,
+          Graphics.UI.Fungen.Objects.GameObjectPicture,
+          GHC.Types.Bool,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D,
+          t #)
+  {- Arity: 6, Strictness: <L,U><L,1*U><L,U><L,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ t
+                   w :: GHC.Base.String
+                   w1 :: Graphics.UI.Fungen.Objects.ObjectPicture
+                   w2 :: GHC.Types.Bool
+                   w3 :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   w4 :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   w5 :: t ->
+                 let {
+                   ds :: (Graphics.UI.Fungen.Objects.GameObjectPicture,
+                          Graphics.UI.Fungen.Types.Point2D)
+                   = case w1 of wild {
+                       Graphics.UI.Fungen.Objects.Tex size picIndex
+                       -> (Graphics.UI.Fungen.Objects.Tx picIndex, size)
+                       Graphics.UI.Fungen.Objects.Basic ds1
+                       -> case ds1 of wild1 {
+                            Graphics.UI.Fungen.Objects.Polyg points r g b fillMode
+                            -> (Graphics.UI.Fungen.Objects.B
+                                  (Graphics.UI.Fungen.Objects.P
+                                     (Graphics.UI.Fungen.Util.point2DtoVertex3 points)
+                                     (case r of dt { GHC.Types.F# ipv ->
+                                      case g of dt1 { GHC.Types.F# ipv1 ->
+                                      case b of dt2 { GHC.Types.F# ipv2 ->
+                                      Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+                                        @ Graphics.GL.Types.GLfloat
+                                        dt
+                                        dt1
+                                        dt2
+                                        Graphics.UI.Fungen.Objects.object4 } } })
+                                     fillMode),
+                                let {
+                                  ds2 :: ([Graphics.GL.Types.GLdouble],
+                                          [Graphics.GL.Types.GLdouble])
+                                  = case Graphics.UI.Fungen.Objects.$wgo4
+                                           points of ww { (#,#) ww1 ww2 ->
+                                    (ww1, ww2) }
+                                } in
+                                (case ds2 of wild2 { (,) xList yList ->
+                                 case xList of wild3 {
+                                   [] -> Graphics.UI.Fungen.Objects.object3
+                                   : ipv ipv1
+                                   -> case ipv of ww { GHC.Types.D# ww1 ->
+                                      case Graphics.UI.Fungen.Objects.$wgo3
+                                             ipv1
+                                             ww1 of ww2 { DEFAULT ->
+                                      case Graphics.UI.Fungen.Objects.$wgo2
+                                             ipv1
+                                             ww1 of ww3 { DEFAULT ->
+                                      GHC.Types.D# (GHC.Prim.-## ww2 ww3) } } } } },
+                                 case ds2 of wild2 { (,) xList yList ->
+                                 case yList of wild3 {
+                                   [] -> Graphics.UI.Fungen.Objects.object3
+                                   : ipv ipv1
+                                   -> case ipv of ww { GHC.Types.D# ww1 ->
+                                      case Graphics.UI.Fungen.Objects.$wgo1
+                                             ipv1
+                                             ww1 of ww2 { DEFAULT ->
+                                      case Graphics.UI.Fungen.Objects.$wgo
+                                             ipv1
+                                             ww1 of ww3 { DEFAULT ->
+                                      GHC.Types.D# (GHC.Prim.-## ww2 ww3) } } } } }))
+                            Graphics.UI.Fungen.Objects.Circle radius r g b fillMode
+                            -> (Graphics.UI.Fungen.Objects.B
+                                  (Graphics.UI.Fungen.Objects.C
+                                     radius
+                                     (case r of dt { GHC.Types.F# ipv ->
+                                      case g of dt1 { GHC.Types.F# ipv1 ->
+                                      case b of dt2 { GHC.Types.F# ipv2 ->
+                                      Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+                                        @ Graphics.GL.Types.GLfloat
+                                        dt
+                                        dt1
+                                        dt2
+                                        Graphics.UI.Fungen.Objects.object4 } } })
+                                     fillMode),
+                                (case radius of wild2 { GHC.Types.D# y ->
+                                 GHC.Types.D# (GHC.Prim.+## y y) },
+                                 case radius of wild2 { GHC.Types.D# y ->
+                                 GHC.Types.D# (GHC.Prim.+## y y) })) } }
+                 } in
+                 (# Graphics.UI.Fungen.Objects.object2,
+                    w,
+                    Graphics.UI.Fungen.Objects.object1,
+                    case ds of wild { (,) picture size -> picture },
+                    w2,
+                    case ds of wild { (,) picture size -> size },
+                    w3,
+                    w4,
+                    w5 #)) -}
+4aa50b5c0b1ed47b5b37bc8c2fa6bd34
+  $wsearchGameObjectAux ::
+    GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.GameObject t]
+    -> (# GHC.Integer.Type.Integer,
+          GHC.Base.String,
+          GHC.Base.String,
+          Graphics.UI.Fungen.Objects.GameObjectPicture,
+          GHC.Types.Bool,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D,
+          Graphics.UI.Fungen.Types.Point2D,
+          t #)
+  {- Arity: 2, Strictness: <S,U><S,1*U>, Inline: [0] -}
+c0a731c1c231a9ccb9406b0144981a22
+  $wsearchObjectManager ::
+    GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> (# GHC.Base.String,
+          GHC.Integer.Type.Integer,
+          [Graphics.UI.Fungen.Objects.GameObject t] #)
+  {- Arity: 2, Strictness: <S,U><S,1*U>, Inline: [0] -}
+84f70e0cafe8ffd99e9a03693923af4a
+  $wupdateObject ::
+    (Graphics.UI.Fungen.Objects.GameObject t
+     -> Graphics.UI.Fungen.Objects.GameObject t)
+    -> GHC.Integer.Type.Integer
+    -> GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> (# Graphics.UI.Fungen.Objects.ObjectManager t,
+          [Graphics.UI.Fungen.Objects.ObjectManager t] #)
+  {- Arity: 4, Strictness: <L,1*C1(U)><L,U><S,U><S,1*U>,
+     Inline: [0] -}
+ad46ba7f648818082343d9fb53975f1b
+  data FillMode = Filled | Unfilled
+    Promotable
+d4d736dee85db9cb6ec4f037fdd9972e
+  data GameObject t
+    = GO {objId :: GHC.Integer.Type.Integer,
+          objName :: GHC.Base.String,
+          objManagerName :: GHC.Base.String,
+          objPicture :: Graphics.UI.Fungen.Objects.GameObjectPicture,
+          objAsleep :: GHC.Types.Bool,
+          objSize :: Graphics.UI.Fungen.Types.Point2D,
+          objPosition :: Graphics.UI.Fungen.Types.Point2D,
+          objSpeed :: Graphics.UI.Fungen.Types.Point2D,
+          objAttribute :: t}
+2cec3adf7aadcba2ee96b5819f565bda
+  data GameObjectPicture
+    = Tx GHC.Types.Int | B Graphics.UI.Fungen.Objects.GamePrimitive
+ef0b0a4f35fb5e39139c24b5694931ee
+  data GamePrimitive
+    = P [Graphics.Rendering.OpenGL.GL.Tensor.Vertex3
+           Graphics.GL.Types.GLdouble]
+        (Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+           Graphics.GL.Types.GLfloat)
+        Graphics.UI.Fungen.Objects.FillMode
+    | C Graphics.GL.Types.GLdouble
+        (Graphics.Rendering.OpenGL.GL.VertexAttributes.Color4
+           Graphics.GL.Types.GLfloat)
+        Graphics.UI.Fungen.Objects.FillMode
+de2db806c297d18809decd251e9427c6
+  data ObjectManager t
+    = OM {mngName :: GHC.Base.String,
+          mngCounter :: GHC.Integer.Type.Integer,
+          mngObjects :: [Graphics.UI.Fungen.Objects.GameObject t]}
+6235add0fcee8eb25c847f40151396c8
+  data ObjectPicture
+    = Tex (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+          GHC.Types.Int
+    | Basic Graphics.UI.Fungen.Objects.Primitive
+edda4f67b047b70a5bf7d2d0f9e9302d
+  data Primitive
+    = Polyg [Graphics.UI.Fungen.Types.Point2D]
+            Graphics.GL.Types.GLfloat
+            Graphics.GL.Types.GLfloat
+            Graphics.GL.Types.GLfloat
+            Graphics.UI.Fungen.Objects.FillMode
+    | Circle Graphics.GL.Types.GLdouble
+             Graphics.GL.Types.GLfloat
+             Graphics.GL.Types.GLfloat
+             Graphics.GL.Types.GLfloat
+             Graphics.UI.Fungen.Objects.FillMode
+d9bfc8aa4a6e65b899f39ed86f4dd412
+  addObjectsToManager ::
+    [Graphics.UI.Fungen.Objects.GameObject t]
+    -> GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+  {- Arity: 3, Strictness: <L,U><S,U><S,1*U>m2, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ t
+                   w :: [Graphics.UI.Fungen.Objects.GameObject t]
+                   w1 :: GHC.Base.String
+                   w2 :: [Graphics.UI.Fungen.Objects.ObjectManager t] ->
+                 case Graphics.UI.Fungen.Objects.$waddObjectsToManager
+                        @ t
+                        w
+                        w1
+                        w2 of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.:
+                   @ (Graphics.UI.Fungen.Objects.ObjectManager t)
+                   ww1
+                   ww2 }) -}
+a2bf060d1ac49fef6913888afeb1791b
+  destroyGameObject ::
+    GHC.Base.String
+    -> GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+  {- Arity: 3, Strictness: <L,U><S,U><S,1*U>m2, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ t
+                   w :: GHC.Base.String
+                   w1 :: GHC.Base.String
+                   w2 :: [Graphics.UI.Fungen.Objects.ObjectManager t] ->
+                 case Graphics.UI.Fungen.Objects.$wdestroyGameObject
+                        @ t
+                        w
+                        w1
+                        w2 of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.:
+                   @ (Graphics.UI.Fungen.Objects.ObjectManager t)
+                   ww1
+                   ww2 }) -}
+dff2ce8b559c57bc05e1364156f44aae
+  drawGameObject ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+    -> [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.Types.IO ()
+  {- Arity: 4,
+     Strictness: <S(LLLSLLS(SS)LL),1*U(A,A,A,1*U,A,1*U(1*U(U),1*U(U)),1*U(1*U(U),1*U(U)),A,A)><L,A><L,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.drawGameObject1
+                  `cast`
+                (forall t.
+                 <Graphics.UI.Fungen.Objects.GameObject t>_R
+                 ->_R <Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive>_R
+                 ->_R <[Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+bef56bfb1dcfd7a0881e0247f8de40d8
+  drawGameObject1 ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+    -> [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4,
+     Strictness: <S(LLLSLLS(SS)LL),1*U(A,A,A,1*U,A,1*U(1*U(U),1*U(U)),1*U(1*U(U),1*U(U)),A,A)><L,A><L,1*U><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ @ t
+                   w :: Graphics.UI.Fungen.Objects.GameObject t
+                   w1 :: Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+                   w2 :: [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+                   w3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case w of ww { Graphics.UI.Fungen.Objects.GO ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ->
+                 case ww7 of ww10 { (,) ww11 ww12 ->
+                 case ww11 of ww13 { GHC.Types.D# ww14 ->
+                 case ww12 of ww15 { GHC.Types.D# ww16 ->
+                 Graphics.UI.Fungen.Objects.$wa
+                   @ t
+                   ww4
+                   ww6
+                   ww14
+                   ww16
+                   w2
+                   w3 } } } }) -}
+5733d79477873e47bbc221f536478b62
+  drawGameObjects ::
+    [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+    -> [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.Types.IO ()
+  {- Arity: 4, Strictness: <S,1*U><L,A><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.drawGameObjects1
+                  `cast`
+                (forall t.
+                 <[Graphics.UI.Fungen.Objects.ObjectManager t]>_R
+                 ->_R <Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive>_R
+                 ->_R <[Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+18a1430bf5f93eb86288ddfb28029390
+  drawGameObjects1 ::
+    [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+    -> [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4, Strictness: <S,1*U><L,A><L,U><L,U>, Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, True)
+                (\ @ t
+                   w :: [Graphics.UI.Fungen.Objects.ObjectManager t]
+                   w1 :: Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+                   w2 :: [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+                   w3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Graphics.UI.Fungen.Objects.$wa1 @ t w w2 w3) -}
+54d548e5b9f16b5665c1904622e951de
+  findObjectFromId ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2,
+     Strictness: <S(SLSLLLLLL),U(1*U,A,1*U,A,A,A,A,A,A)><S,1*U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   o :: Graphics.UI.Fungen.Objects.GameObject t
+                   mngs :: [Graphics.UI.Fungen.Objects.ObjectManager t] ->
+                 case o of wild { Graphics.UI.Fungen.Objects.GO ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 Graphics.UI.Fungen.Objects.findObjectFromIdAux
+                   @ t
+                   ds
+                   ds2
+                   mngs }) -}
+abec33bd7232b85606ded26d81c22959
+  findObjectFromIdAux ::
+    GHC.Integer.Type.Integer
+    -> GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 3, Strictness: <S,U><S,U><S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ t
+                   w :: GHC.Integer.Type.Integer
+                   w1 :: GHC.Base.String
+                   w2 :: [Graphics.UI.Fungen.Objects.ObjectManager t] ->
+                 case Graphics.UI.Fungen.Objects.$wfindObjectFromIdAux
+                        @ t
+                        w
+                        w1
+                        w2 of ww { (#,,,,,,,,#) ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ->
+                 Graphics.UI.Fungen.Objects.GO
+                   @ t
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9 }) -}
+a10374f7450e5aa950d92a9bbf03fcf5
+  getGameObjectAsleep ::
+    Graphics.UI.Fungen.Objects.GameObject t -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLSLLLL),1*U(A,A,A,A,1*U,A,A,A,A)>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.objAsleep -}
+cf06e05d8429535d754a8ef22202d568
+  getGameObjectAttribute ::
+    Graphics.UI.Fungen.Objects.GameObject t -> t
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLS),1*U(A,A,A,A,A,A,A,A,1*U)>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.objAttribute -}
+af56962d9ed62aa2069cc16ecce94e63
+  getGameObjectId ::
+    Graphics.UI.Fungen.Objects.GameObject t -> GHC.Integer.Type.Integer
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLL),1*U(1*U,A,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.objId -}
+e43bf39a18d01ae5db8296b7a0e2a87b
+  getGameObjectManagerName ::
+    Graphics.UI.Fungen.Objects.GameObject t -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSLLLLLL),1*U(A,A,1*U,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.objManagerName -}
+89dba856204352d2fe553f9f437c3c03
+  getGameObjectName ::
+    Graphics.UI.Fungen.Objects.GameObject t -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLLLL),1*U(A,1*U,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.objName -}
+e8ed94261efae2c7d60cbcd7c8291e4d
+  getGameObjectPosition ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,A,A,A,1*U(U,U),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t o :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 let {
+                   ds :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   = case o of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                     ds7 }
+                 } in
+                 (case ds of wild { (,) pX pY -> pX },
+                  case ds of wild { (,) pX pY -> pY })) -}
+170e898e31143cf29147d901637ce06a
+  getGameObjectSize ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,A,A,1*U(U,U),A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t o :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 let {
+                   ds :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   = case o of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                     ds6 }
+                 } in
+                 (case ds of wild { (,) sX sY -> sX },
+                  case ds of wild { (,) sX sY -> sY })) -}
+3c1fbe0cd823a52551bfc8ba03d54c40
+  getGameObjectSpeed ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,A,A,A,A,1*U(U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t o :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 let {
+                   ds :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   = case o of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                     ds8 }
+                 } in
+                 (case ds of wild { (,) sX sY -> sX },
+                  case ds of wild { (,) sX sY -> sY })) -}
+112209b06b5f9b0d17642b7745d9f0b4
+  getObjectManagerCounter ::
+    Graphics.UI.Fungen.Objects.ObjectManager t
+    -> GHC.Integer.Type.Integer
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.mngCounter -}
+235394d312c5f1b93135292e4eb50ba5
+  getObjectManagerName ::
+    Graphics.UI.Fungen.Objects.ObjectManager t -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.mngName -}
+9414540a4ae0db4bbbfa48553bb11f26
+  getObjectManagerObjects ::
+    Graphics.UI.Fungen.Objects.ObjectManager t
+    -> [Graphics.UI.Fungen.Objects.GameObject t]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Objects.mngObjects -}
+dfec838605b381103e351f06f4d1f939
+  mngCounter ::
+    Graphics.UI.Fungen.Objects.ObjectManager t
+    -> GHC.Integer.Type.Integer
+  RecSel Graphics.UI.Fungen.Objects.ObjectManager
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.ObjectManager t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.OM ds1 ds2 ds3 ->
+                 ds2 }) -}
+21592190ceb38fac906717163c4d1323
+  mngName ::
+    Graphics.UI.Fungen.Objects.ObjectManager t -> GHC.Base.String
+  RecSel Graphics.UI.Fungen.Objects.ObjectManager
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.ObjectManager t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.OM ds1 ds2 ds3 ->
+                 ds1 }) -}
+2629dfcee0cd1b7fbb210af1653240f1
+  mngObjects ::
+    Graphics.UI.Fungen.Objects.ObjectManager t
+    -> [Graphics.UI.Fungen.Objects.GameObject t]
+  RecSel Graphics.UI.Fungen.Objects.ObjectManager
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.ObjectManager t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.OM ds1 ds2 ds3 ->
+                 ds3 }) -}
+672db7e65eb8a2fa5fb7dfc757461670
+  moveGameObjects ::
+    [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+f97bb1acb3bf490298d52ff21d34c1f6
+  objAsleep ::
+    Graphics.UI.Fungen.Objects.GameObject t -> GHC.Types.Bool
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLSLLLL),1*U(A,A,A,A,1*U,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds5 }) -}
+9dabdf9e932b424221a3bc0a561e8324
+  objAttribute :: Graphics.UI.Fungen.Objects.GameObject t -> t
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLS),1*U(A,A,A,A,A,A,A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds9 }) -}
+fc00cd43a8975b8bad5cb58c0d926b3a
+  objId ::
+    Graphics.UI.Fungen.Objects.GameObject t -> GHC.Integer.Type.Integer
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLL),1*U(1*U,A,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds1 }) -}
+7968c3dc1177100924f5602ded8a9dbc
+  objManagerName ::
+    Graphics.UI.Fungen.Objects.GameObject t -> GHC.Base.String
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSLLLLLL),1*U(A,A,1*U,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds3 }) -}
+3b40e65de1be6fa5fd3953683b924f63
+  objName ::
+    Graphics.UI.Fungen.Objects.GameObject t -> GHC.Base.String
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLLLL),1*U(A,1*U,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds2 }) -}
+52e56cd288ba883bda2197a678eff912
+  objPicture ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Objects.GameObjectPicture
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLSLLLLL),1*U(A,A,A,1*U,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds4 }) -}
+38d6a6c24a014c742fef71929c9c916e
+  objPosition ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Types.Point2D
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLSLL),1*U(A,A,A,A,A,A,1*U(U,U),A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds7 }) -}
+c2b8290b9a9685f56b11bb6cf8810eea
+  objSize ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Types.Point2D
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLSLLL),1*U(A,A,A,A,A,1*U(U,U),A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds6 }) -}
+badba0c86fb91991c208cb9c90628b12
+  objSpeed ::
+    Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Types.Point2D
+  RecSel Graphics.UI.Fungen.Objects.GameObject
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLSL),1*U(A,A,A,A,A,A,A,1*U(U,U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 ds8 }) -}
+b5f43ef38400aa00098c33254a1c9053
+  object ::
+    GHC.Base.String
+    -> Graphics.UI.Fungen.Objects.ObjectPicture
+    -> GHC.Types.Bool
+    -> (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+    -> (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+    -> t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 6, Strictness: <L,U><L,1*U><L,U><L,U><L,U><L,U>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (6, True, False)
+                (\ @ t
+                   w :: GHC.Base.String
+                   w1 :: Graphics.UI.Fungen.Objects.ObjectPicture
+                   w2 :: GHC.Types.Bool
+                   w3 :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   w4 :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   w5 :: t ->
+                 case Graphics.UI.Fungen.Objects.$wobject
+                        @ t
+                        w
+                        w1
+                        w2
+                        w3
+                        w4
+                        w5 of ww { (#,,,,,,,,#) ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ->
+                 Graphics.UI.Fungen.Objects.GO
+                   @ t
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9 }) -}
+91c09293ac15633e06cea9c5d6a29df4
+  object1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "object not grouped yet!"#) -}
+fbeb5a668e4eab445e1d32fbf2dd2922
+  object2 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 0) -}
+2b5649dcc42c5ed151eb35179b7b4dbe
+  object3 :: Graphics.GL.Types.GLdouble
+  {- Strictness: b -}
+8589b4cbb5e86c4083e38c074a7d0969
+  object4 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.F# __float 1.0) -}
+27908c14b1fd90478390e15fde1c2403
+  objectGroup ::
+    GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.GameObject t]
+    -> Graphics.UI.Fungen.Objects.ObjectManager t
+  {- Arity: 2, Strictness: <L,U><L,U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   w :: GHC.Base.String
+                   w1 :: [Graphics.UI.Fungen.Objects.GameObject t] ->
+                 Graphics.UI.Fungen.Objects.OM
+                   @ t
+                   w
+                   (case GHC.List.$wlenAcc
+                           @ (Graphics.UI.Fungen.Objects.GameObject t)
+                           w1
+                           0 of ww2 { DEFAULT ->
+                    GHC.Integer.Type.smallInteger ww2 })
+                   (Graphics.UI.Fungen.Objects.objectGroupAux
+                      @ t
+                      w1
+                      w
+                      Graphics.UI.Fungen.Objects.object2)) -}
+87743baa87699c4a71bb189ea236ec93
+  objectGroupAux ::
+    [Graphics.UI.Fungen.Objects.GameObject t]
+    -> GHC.Base.String
+    -> GHC.Integer.Type.Integer
+    -> [Graphics.UI.Fungen.Objects.GameObject t]
+  {- Arity: 3, Strictness: <S,1*U><L,U><L,U> -}
+ebb4a9257c7c878f79f642ccf72983b2
+  searchGameObject ::
+    GHC.Base.String
+    -> Graphics.UI.Fungen.Objects.ObjectManager t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, Strictness: <S,U><S(LLS),1*U(A,A,1*U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   objectName :: GHC.Base.String
+                   m :: Graphics.UI.Fungen.Objects.ObjectManager t ->
+                 case m of wild { Graphics.UI.Fungen.Objects.OM ds ds1 ds2 ->
+                 Graphics.UI.Fungen.Objects.searchGameObjectAux
+                   @ t
+                   objectName
+                   ds2 }) -}
+918579b45f9fb5745c1ec7e8d25a4d30
+  searchGameObjectAux ::
+    GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.GameObject t]
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, Strictness: <S,U><S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   w :: GHC.Base.String
+                   w1 :: [Graphics.UI.Fungen.Objects.GameObject t] ->
+                 case Graphics.UI.Fungen.Objects.$wsearchGameObjectAux
+                        @ t
+                        w
+                        w1 of ww { (#,,,,,,,,#) ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ->
+                 Graphics.UI.Fungen.Objects.GO
+                   @ t
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9 }) -}
+a8efd98db28055e5844a2e6a6f5bc298
+  searchObjectManager ::
+    GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> Graphics.UI.Fungen.Objects.ObjectManager t
+  {- Arity: 2, Strictness: <S,U><S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   w :: GHC.Base.String
+                   w1 :: [Graphics.UI.Fungen.Objects.ObjectManager t] ->
+                 case Graphics.UI.Fungen.Objects.$wsearchObjectManager
+                        @ t
+                        w
+                        w1 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Graphics.UI.Fungen.Objects.OM @ t ww1 ww2 ww3 }) -}
+a383104139f4aefbcfd27ceb601233d5
+  updateObject ::
+    (Graphics.UI.Fungen.Objects.GameObject t
+     -> Graphics.UI.Fungen.Objects.GameObject t)
+    -> GHC.Integer.Type.Integer
+    -> GHC.Base.String
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+    -> [Graphics.UI.Fungen.Objects.ObjectManager t]
+  {- Arity: 4, Strictness: <L,1*C1(U)><L,U><S,U><S,1*U>m2,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ @ t
+                   w :: Graphics.UI.Fungen.Objects.GameObject t
+                        -> Graphics.UI.Fungen.Objects.GameObject t
+                   w1 :: GHC.Integer.Type.Integer
+                   w2 :: GHC.Base.String
+                   w3 :: [Graphics.UI.Fungen.Objects.ObjectManager t] ->
+                 case Graphics.UI.Fungen.Objects.$wupdateObject
+                        @ t
+                        w
+                        w1
+                        w2
+                        w3 of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.:
+                   @ (Graphics.UI.Fungen.Objects.ObjectManager t)
+                   ww1
+                   ww2 }) -}
+ae8cdf35cc3dec0996de381ec7e666ca
+  updateObjectAsleep ::
+    GHC.Types.Bool
+    -> Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,U><S,1*U(U,U,U,U,A,U,U,U,U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   asleep :: GHC.Types.Bool
+                   o :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case o of wild { Graphics.UI.Fungen.Objects.GO ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 Graphics.UI.Fungen.Objects.GO
+                   @ t
+                   ds
+                   ds1
+                   ds2
+                   ds3
+                   asleep
+                   ds5
+                   ds6
+                   ds7
+                   ds8 }) -}
+1be48e10c2da88916e2c2b92bf8a6d0f
+  updateObjectAttribute ::
+    t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,U><S,1*U(U,U,U,U,U,U,U,U,A)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t oAttrib :: t o :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case o of wild { Graphics.UI.Fungen.Objects.GO ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 Graphics.UI.Fungen.Objects.GO
+                   @ t
+                   ds
+                   ds1
+                   ds2
+                   ds3
+                   ds4
+                   ds5
+                   ds6
+                   ds7
+                   oAttrib }) -}
+d4d5fef26549838d310eeffa766d32b5
+  updateObjectPicture ::
+    GHC.Types.Int
+    -> GHC.Types.Int
+    -> Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 3,
+     Strictness: <S,1*U(U)><S,1*U(U)><S(LLLSLLLLL),1*U(U,U,U,1*U,U,U,U,U,U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ t
+                   w :: GHC.Types.Int
+                   w1 :: GHC.Types.Int
+                   w2 :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { GHC.Types.I# ww3 ->
+                 case w2 of ww4 { Graphics.UI.Fungen.Objects.GO ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ->
+                 case ww8 of wild {
+                   Graphics.UI.Fungen.Objects.Tx ds
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# ww1 ww3) of wild1 {
+                        GHC.Types.False
+                        -> Graphics.UI.Fungen.Objects.updateObjectPicture2 @ t ww6 ww7
+                        GHC.Types.True
+                        -> Graphics.UI.Fungen.Objects.GO
+                             @ t
+                             ww5
+                             ww6
+                             ww7
+                             (Graphics.UI.Fungen.Objects.Tx (GHC.Types.I# ww1))
+                             ww9
+                             ww10
+                             ww11
+                             ww12
+                             ww13 }
+                   Graphics.UI.Fungen.Objects.B ipv
+                   -> Graphics.UI.Fungen.Objects.updateObjectPicture1
+                        @ t
+                        ww6
+                        ww7 } } } }) -}
+598e82deece87fe7db151bf277ff2e5c
+  updateObjectPicture1 ::
+    GHC.Base.String
+    -> GHC.Base.String -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, Strictness: <L,U><L,U>b -}
+aa0ce9acc48d1dee6d94917e9883788d
+  updateObjectPicture2 ::
+    GHC.Base.String
+    -> GHC.Base.String -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, Strictness: <L,U><L,U>b -}
+1f53cfe02552db350d1fe6fd598f9324
+  updateObjectPosition ::
+    (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+    -> Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S,1*U(U,U)><S,1*U(U,U,U,U,U,U,A,U,U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   ds :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   o :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { (,) pX pY ->
+                 case o of wild1 { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 Graphics.UI.Fungen.Objects.GO
+                   @ t
+                   ds1
+                   ds2
+                   ds3
+                   ds4
+                   ds5
+                   ds6
+                   (pX, pY)
+                   ds8
+                   ds9 } }) -}
+3454250657b4ea38cbe94760f0b2b412
+  updateObjectSize ::
+    (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+    -> Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S,1*U(U,U)><S,1*U(U,U,U,U,U,A,U,U,U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   ds :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   o :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { (,) sX sY ->
+                 case o of wild1 { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 Graphics.UI.Fungen.Objects.GO
+                   @ t
+                   ds1
+                   ds2
+                   ds3
+                   ds4
+                   ds5
+                   (sX, sY)
+                   ds7
+                   ds8
+                   ds9 } }) -}
+93384ad88b35617f5bf55000ec49fbc7
+  updateObjectSpeed ::
+    (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+    -> Graphics.UI.Fungen.Objects.GameObject t
+    -> Graphics.UI.Fungen.Objects.GameObject t
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S,1*U(U,U)><S,1*U(U,U,U,U,U,U,U,A,U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   ds :: (Graphics.GL.Types.GLdouble, Graphics.GL.Types.GLdouble)
+                   o :: Graphics.UI.Fungen.Objects.GameObject t ->
+                 case ds of wild { (,) sX sY ->
+                 case o of wild1 { Graphics.UI.Fungen.Objects.GO ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ->
+                 Graphics.UI.Fungen.Objects.GO
+                   @ t
+                   ds1
+                   ds2
+                   ds3
+                   ds4
+                   ds5
+                   ds6
+                   ds7
+                   (sX, sY)
+                   ds9 } }) -}
+instance GHC.Classes.Eq [Graphics.UI.Fungen.Objects.FillMode]
+  = Graphics.UI.Fungen.Objects.$fEqFillMode
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

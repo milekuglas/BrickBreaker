@@ -1,0 +1,125 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:26.3596015 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Timer 7103
+  interface hash: 73b6119fc3eae79485d0d1b714554b66
+  ABI hash: 18a8b4904d417c7c5417ef135565e04e
+  export-list hash: f152adcdb7a3d5b9946b9091c516b54f
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Timer.setRefresh
+  Graphics.UI.Fungen.Timer.RefreshType{Graphics.UI.Fungen.Timer.Idle Graphics.UI.Fungen.Timer.Timer}
+module dependencies: Graphics.UI.GLUT.Input
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.GLUT.Input d5a6dc920e7b171d14a51dcc1a3bd7bb
+  exports: 88721ad78cce2652fe56ee745dd6d32a
+  StillDownHandler 0ef95b39d3e97f5aa68b4e20b2bd555b
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT 5f96c81bc741688b59291cc04889046c
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Callbacks.Global 1b1626fa87e32e9a2bd94420add46543
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Window c736ea9cb6fe2eb93f451f73701e4af0
+import  -/  StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy:Data.StateVar a47bcf36d75f50e1f83a933cd25c1485
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+878c8fffdb3877dbef81cc3dfefa45d2
+  data RefreshType = Idle | Timer GHC.Types.Int
+95be6094ec5d935362c084b1ab5f572d
+  setRefresh ::
+    Graphics.UI.Fungen.Timer.RefreshType
+    -> Graphics.UI.GLUT.Input.StillDownHandler -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <S,1*U><L,C(U(U,A))><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Timer.setRefresh1
+                  `cast`
+                (<Graphics.UI.Fungen.Timer.RefreshType>_R
+                 ->_R <Graphics.UI.GLUT.Input.StillDownHandler>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+700ae836ba45082045592b55224ce578
+  setRefresh1 ::
+    Graphics.UI.Fungen.Timer.RefreshType
+    -> Graphics.UI.GLUT.Input.StillDownHandler
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <S,1*U><L,C(U(U,A))><L,U>,
+     Unfolding: (\ ds :: Graphics.UI.Fungen.Timer.RefreshType
+                   stillDown :: Graphics.UI.GLUT.Input.StillDownHandler
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild {
+                   Graphics.UI.Fungen.Timer.Idle
+                   -> Graphics.UI.GLUT.Callbacks.Registration.setCallback1
+                        @ Graphics.UI.GLUT.Raw.Callbacks.IdleFunc
+                        @ Graphics.UI.GLUT.Raw.Callbacks.IdleFunc
+                        Graphics.UI.GLUT.Callbacks.Registration.IdleCB
+                        Graphics.UI.GLUT.Callbacks.Global.idleCallback2
+                          `cast`
+                        (<GHC.Ptr.FunPtr Graphics.UI.GLUT.Raw.Callbacks.IdleFunc>_R
+                         ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                        Graphics.UI.GLUT.Raw.Callbacks.makeIdleFunc
+                        (GHC.Base.Just
+                           @ (GHC.Types.IO ())
+                           (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                            case stillDown `cast` (GHC.Types.NTCo:IO[0] <()>_R)
+                                   s of ds1 { (#,#) ipv ipv1 ->
+                            Graphics.UI.GLUT.Raw.Functions.glutPostRedisplay1 ipv })
+                             `cast`
+                           (Sym (GHC.Types.NTCo:IO[0] <()>_R)))
+                        eta
+                   Graphics.UI.Fungen.Timer.Timer t
+                   -> Graphics.UI.GLUT.Callbacks.Global.addTimerCallback1
+                        t
+                        (Graphics.UI.Fungen.Timer.setRefresh2 stillDown t)
+                          `cast`
+                        (Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                        eta }) -}
+101e6d0c4f02e4ff6121db714050ac4b
+  setRefresh2 ::
+    Graphics.UI.GLUT.Input.StillDownHandler
+    -> GHC.Types.Int
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <C(S),C(U(U,A))><L,U(U)><L,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

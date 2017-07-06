@@ -1,0 +1,450 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:26.0986011 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.GLUT.Input 7103
+  interface hash: 81561d8dd467f2248303e7af0fec1d62
+  ABI hash: d5a6dc920e7b171d14a51dcc1a3bd7bb
+  export-list hash: 88721ad78cce2652fe56ee745dd6d32a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 9df84e46e33993d06bbe971a696e617e
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.GLUT.Input.glutInitInput
+  Graphics.UI.GLUT.Input.InputHandler
+  Graphics.UI.GLUT.Input.KeyBinder
+  Graphics.UI.GLUT.Input.KeyEvent{Graphics.UI.GLUT.Input.Press Graphics.UI.GLUT.Input.Release Graphics.UI.GLUT.Input.StillDown}
+  Graphics.UI.GLUT.Input.StillDownHandler
+  Graphics.UI.GLUT.Callbacks.Window.Key{Graphics.UI.GLUT.Callbacks.Window.Char Graphics.UI.GLUT.Callbacks.Window.MouseButton Graphics.UI.GLUT.Callbacks.Window.SpecialKey}
+module dependencies:
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT 5f96c81bc741688b59291cc04889046c
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Callbacks.Window 711d4e76e4c763d10dcd31a14d4082cb
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.DeviceControl 889d88ccc97387037d5d16a7cbaf805f
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.CoordTrans 8b660450943639e0aadeddc7e820344c
+import  -/  StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy:Data.StateVar a47bcf36d75f50e1f83a933cd25c1485
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Data.IORef 976e22a2a5bee98653c6ebd18a5d0d2f
+import  -/  base-4.8.2.0:Data.List 3f0782c8d4bf50eecefcd5ea1798aac8
+import  -/  base-4.8.2.0:Data.Maybe 1cb58de2b04ee3c0c0a7dc9201184aff
+import  -/  base-4.8.2.0:Data.OldList d8fd80b0e14aa085ce6219cd89dad356
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:GHC.IORef 214f24404788140014fb59d5413cb1a5
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+7a97a96b9347cd17b6202b148091ceab
+  $fEqKeyEvent :: GHC.Classes.Eq Graphics.UI.GLUT.Input.KeyEvent
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Graphics.UI.GLUT.Input.KeyEvent
+                  Graphics.UI.GLUT.Input.$fEqKeyEvent_$c==
+                  Graphics.UI.GLUT.Input.$fEqKeyEvent_$c/= -}
+7a97a96b9347cd17b6202b148091ceab
+  $fEqKeyEvent_$c/= ::
+    Graphics.UI.GLUT.Input.KeyEvent
+    -> Graphics.UI.GLUT.Input.KeyEvent -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a :: Graphics.UI.GLUT.Input.KeyEvent
+                   b :: Graphics.UI.GLUT.Input.KeyEvent ->
+                 case a of wild {
+                   Graphics.UI.GLUT.Input.Press
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Graphics.UI.GLUT.Input.Press -> GHC.Types.False }
+                   Graphics.UI.GLUT.Input.StillDown
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Graphics.UI.GLUT.Input.StillDown -> GHC.Types.False }
+                   Graphics.UI.GLUT.Input.Release
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Graphics.UI.GLUT.Input.Release -> GHC.Types.False } }) -}
+7a97a96b9347cd17b6202b148091ceab
+  $fEqKeyEvent_$c== ::
+    Graphics.UI.GLUT.Input.KeyEvent
+    -> Graphics.UI.GLUT.Input.KeyEvent -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Graphics.UI.GLUT.Input.KeyEvent
+                   ds1 :: Graphics.UI.GLUT.Input.KeyEvent ->
+                 case ds of wild {
+                   Graphics.UI.GLUT.Input.Press
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Graphics.UI.GLUT.Input.Press -> GHC.Types.True }
+                   Graphics.UI.GLUT.Input.StillDown
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Graphics.UI.GLUT.Input.StillDown -> GHC.Types.True }
+                   Graphics.UI.GLUT.Input.Release
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Graphics.UI.GLUT.Input.Release -> GHC.Types.True } }) -}
+90da773ab51dfbbf838791e09d4a023c
+  $s$fEq(,) ::
+    GHC.Classes.Eq
+      (Graphics.UI.GLUT.Callbacks.Window.Key,
+       Graphics.UI.GLUT.Input.KeyEvent)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Graphics.UI.GLUT.Callbacks.Window.Key,
+                     Graphics.UI.GLUT.Input.KeyEvent)
+                  (GHC.Classes.$fEq(,)_$c==
+                     @ Graphics.UI.GLUT.Callbacks.Window.Key
+                     @ Graphics.UI.GLUT.Input.KeyEvent
+                     Graphics.UI.GLUT.Callbacks.Window.$fEqKey
+                     Graphics.UI.GLUT.Input.$fEqKeyEvent)
+                  (GHC.Classes.$fEq(,)_$c/=
+                     @ Graphics.UI.GLUT.Callbacks.Window.Key
+                     @ Graphics.UI.GLUT.Input.KeyEvent
+                     Graphics.UI.GLUT.Callbacks.Window.$fEqKey
+                     Graphics.UI.GLUT.Input.$fEqKeyEvent) -}
+4e48adcc23248ffe490ada67048b5928
+  $wa ::
+    GHC.Prim.MutVar#
+      GHC.Prim.RealWorld
+      [((Graphics.UI.GLUT.Callbacks.Window.Key,
+         Graphics.UI.GLUT.Input.KeyEvent),
+        Graphics.UI.GLUT.Input.InputHandler)]
+    -> Graphics.UI.GLUT.Callbacks.Window.Key
+    -> Graphics.UI.GLUT.Input.KeyEvent
+    -> GHC.Base.Maybe Graphics.UI.GLUT.Input.InputHandler
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,U><L,U><L,U><S,1*U><L,U>,
+     Inline: [0] -}
+e1e88b884466df041a9cb8e00a2f64a6
+  type BindingTable =
+    GHC.IORef.IORef
+      [((Graphics.UI.GLUT.Callbacks.Window.Key,
+         Graphics.UI.GLUT.Input.KeyEvent),
+        Graphics.UI.GLUT.Input.InputHandler)]
+9a6764dc4b28cef572c1aeccc373e032
+  type InputHandler =
+    Graphics.UI.GLUT.Callbacks.Window.Modifiers
+    -> Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+    -> GHC.Types.IO ()
+f0e84d45d3c922d179551dfba797f6f0
+  type KeyBinder =
+    Graphics.UI.GLUT.Callbacks.Window.Key
+    -> Graphics.UI.GLUT.Input.KeyEvent
+    -> GHC.Base.Maybe Graphics.UI.GLUT.Input.InputHandler
+    -> GHC.Types.IO ()
+7a97a96b9347cd17b6202b148091ceab
+  data KeyEvent = Press | StillDown | Release
+    Promotable
+85e8fc60592ffb0f4e27900d095cd858
+  type KeyTable =
+    GHC.IORef.IORef
+      [(Graphics.UI.GLUT.Callbacks.Window.Key,
+        Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+        Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+0ef95b39d3e97f5aa68b4e20b2bd555b
+  type StillDownHandler = GHC.Types.IO ()
+b56123c0afaf0421fb18e50c8c380ce2
+  glutInitInput ::
+    GHC.Types.IO
+      (Graphics.UI.GLUT.Input.KeyBinder,
+       Graphics.UI.GLUT.Input.StillDownHandler)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.GLUT.Input.glutInitInput1
+                  `cast`
+                (Sym (GHC.Types.NTCo:IO[0]
+                          <(Graphics.UI.GLUT.Input.KeyBinder,
+                            Graphics.UI.GLUT.Input.StillDownHandler)>_R)) -}
+8a155b8382906afdfce7fb0d42e6a230
+  glutInitInput1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Graphics.UI.GLUT.Input.KeyBinder,
+           Graphics.UI.GLUT.Input.StillDownHandler) #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (Graphics.UI.GLUT.Raw.Functions.ptr_glutIgnoreKeyRepeat
+                         @ (Foreign.C.Types.CInt -> GHC.Types.IO ()))
+                        `cast`
+                      (GHC.Ptr.FunPtr
+                         (UnivCo opt_phantom phantom Foreign.C.Types.CInt GHC.Int.Int32
+                          ->_P <GHC.Types.IO ()>_P))_R of ds { GHC.Ptr.FunPtr ds1 ->
+                 case {__dyn_ccall_GC "" GHC.Prim.Addr#
+                                         -> GHC.Prim.Int#
+                                         -> GHC.Prim.State# GHC.Prim.RealWorld
+                                         -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                        ds1
+                        1
+                        s of wild1 { (##) ds4 ->
+                 case GHC.Prim.newMutVar#
+                        @ [((Graphics.UI.GLUT.Callbacks.Window.Key,
+                             Graphics.UI.GLUT.Input.KeyEvent),
+                            Graphics.UI.GLUT.Input.InputHandler)]
+                        @ GHC.Prim.RealWorld
+                        (GHC.Types.[]
+                           @ ((Graphics.UI.GLUT.Callbacks.Window.Key,
+                               Graphics.UI.GLUT.Input.KeyEvent),
+                              Graphics.UI.GLUT.Input.InputHandler))
+                        ds4 of ds2 { (#,#) ipv ipv1 ->
+                 case GHC.Prim.newMutVar#
+                        @ [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                            Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                            Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+                        @ GHC.Prim.RealWorld
+                        (GHC.Types.[]
+                           @ (Graphics.UI.GLUT.Callbacks.Window.Key,
+                              Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                              Graphics.Rendering.OpenGL.GL.CoordTrans.Position))
+                        ipv of ds3 { (#,#) ipv2 ipv3 ->
+                 case Graphics.UI.GLUT.Callbacks.Window.keyboardMouseCallback1
+                        (GHC.Base.Just
+                           @ (Graphics.UI.GLUT.Callbacks.Window.Key
+                              -> Graphics.UI.GLUT.Callbacks.Window.KeyState
+                              -> Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                              -> Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                              -> GHC.Types.IO ())
+                           (\ k :: Graphics.UI.GLUT.Callbacks.Window.Key
+                              ds5 :: Graphics.UI.GLUT.Callbacks.Window.KeyState
+                              mods :: Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                              pos :: Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                              eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                            case ds5 of wild {
+                              Graphics.UI.GLUT.Callbacks.Window.Down
+                              -> case GHC.Prim.readMutVar#
+                                        @ GHC.Prim.RealWorld
+                                        @ [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                                            Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                                            Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+                                        ipv3
+                                        eta of ds6 { (#,#) ipv4 ipv5 ->
+                                 case GHC.Prim.writeMutVar#
+                                        @ GHC.Prim.RealWorld
+                                        @ [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                                            Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                                            Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+                                        ipv3
+                                        (GHC.Types.:
+                                           @ (Graphics.UI.GLUT.Callbacks.Window.Key,
+                                              Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                                              Graphics.Rendering.OpenGL.GL.CoordTrans.Position)
+                                           (k, mods, pos)
+                                           ipv5)
+                                        ipv4 of s2# { DEFAULT ->
+                                 case GHC.Prim.readMutVar#
+                                        @ GHC.Prim.RealWorld
+                                        @ [((Graphics.UI.GLUT.Callbacks.Window.Key,
+                                             Graphics.UI.GLUT.Input.KeyEvent),
+                                            Graphics.UI.GLUT.Input.InputHandler)]
+                                        ipv1
+                                        s2# of ds7 { (#,#) ipv6 ipv7 ->
+                                 case GHC.List.lookup
+                                        @ (Graphics.UI.GLUT.Callbacks.Window.Key,
+                                           Graphics.UI.GLUT.Input.KeyEvent)
+                                        @ (Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                                           -> Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                                           -> GHC.Types.IO ())
+                                        Graphics.UI.GLUT.Input.$s$fEq(,)
+                                        (k, Graphics.UI.GLUT.Input.Press)
+                                        ipv7 of wild2 {
+                                   GHC.Base.Nothing -> (# ipv6, GHC.Tuple.() #)
+                                   GHC.Base.Just x
+                                   -> (x mods pos) `cast` (GHC.Types.NTCo:IO[0] <()>_R) ipv6 } } } }
+                              Graphics.UI.GLUT.Callbacks.Window.Up
+                              -> case GHC.Prim.readMutVar#
+                                        @ GHC.Prim.RealWorld
+                                        @ [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                                            Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                                            Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+                                        ipv3
+                                        eta of ds6 { (#,#) ipv4 ipv5 ->
+                                 case GHC.Prim.writeMutVar#
+                                        @ GHC.Prim.RealWorld
+                                        @ [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                                            Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                                            Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+                                        ipv3
+                                        (Data.OldList.deleteBy
+                                           @ (Graphics.UI.GLUT.Callbacks.Window.Key,
+                                              Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                                              Graphics.Rendering.OpenGL.GL.CoordTrans.Position)
+                                           Graphics.UI.GLUT.Input.glutInitInput4
+                                           (k,
+                                            Graphics.UI.GLUT.Input.glutInitInput3,
+                                            Graphics.UI.GLUT.Input.glutInitInput2)
+                                           ipv5)
+                                        ipv4 of s2# { DEFAULT ->
+                                 case GHC.Prim.readMutVar#
+                                        @ GHC.Prim.RealWorld
+                                        @ [((Graphics.UI.GLUT.Callbacks.Window.Key,
+                                             Graphics.UI.GLUT.Input.KeyEvent),
+                                            Graphics.UI.GLUT.Input.InputHandler)]
+                                        ipv1
+                                        s2# of ds7 { (#,#) ipv6 ipv7 ->
+                                 case GHC.List.lookup
+                                        @ (Graphics.UI.GLUT.Callbacks.Window.Key,
+                                           Graphics.UI.GLUT.Input.KeyEvent)
+                                        @ (Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                                           -> Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                                           -> GHC.Types.IO ())
+                                        Graphics.UI.GLUT.Input.$s$fEq(,)
+                                        (k, Graphics.UI.GLUT.Input.Release)
+                                        ipv7 of wild2 {
+                                   GHC.Base.Nothing -> (# ipv6, GHC.Tuple.() #)
+                                   GHC.Base.Just x
+                                   -> (x mods pos) `cast` (GHC.Types.NTCo:IO[0] <()>_R)
+                                        ipv6 } } } } })
+                             `cast`
+                           (<Graphics.UI.GLUT.Callbacks.Window.Key>_R
+                            ->_R <Graphics.UI.GLUT.Callbacks.Window.KeyState>_R
+                            ->_R <Graphics.UI.GLUT.Callbacks.Window.Modifiers>_R
+                            ->_R <Graphics.Rendering.OpenGL.GL.CoordTrans.Position>_R
+                            ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)))
+                        ipv2 of ds5 { (#,#) ipv4 ipv5 ->
+                 (# ipv4,
+                    ((\ w :: Graphics.UI.GLUT.Callbacks.Window.Key
+                        w1 :: Graphics.UI.GLUT.Input.KeyEvent
+                        w2 :: GHC.Base.Maybe Graphics.UI.GLUT.Input.InputHandler
+                        w3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                      Graphics.UI.GLUT.Input.$wa ipv1 w w1 w2 w3)
+                       `cast`
+                     (<Graphics.UI.GLUT.Callbacks.Window.Key>_R
+                      ->_R <Graphics.UI.GLUT.Input.KeyEvent>_R
+                      ->_R <GHC.Base.Maybe Graphics.UI.GLUT.Input.InputHandler>_R
+                      ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)),
+                     (\ s1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                      case GHC.Prim.readMutVar#
+                             @ GHC.Prim.RealWorld
+                             @ [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                                 Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                                 Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+                             ipv3
+                             s1 of ds6 { (#,#) ipv6 ipv7 ->
+                      letrec {
+                        a :: [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                               Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                               Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+                             -> GHC.Prim.State# GHC.Prim.RealWorld
+                             -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                          {- Arity: 2, Strictness: <S,1*U><L,U> -}
+                        = \ ds7 :: [(Graphics.UI.GLUT.Callbacks.Window.Key,
+                                     Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                                     Graphics.Rendering.OpenGL.GL.CoordTrans.Position)]
+                            eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                          case ds7 of wild {
+                            [] -> (# eta, GHC.Tuple.() #)
+                            : y ys
+                            -> case y of wild2 { (,,) k mods pos ->
+                               case GHC.Prim.readMutVar#
+                                      @ GHC.Prim.RealWorld
+                                      @ [((Graphics.UI.GLUT.Callbacks.Window.Key,
+                                           Graphics.UI.GLUT.Input.KeyEvent),
+                                          Graphics.UI.GLUT.Input.InputHandler)]
+                                      ipv1
+                                      eta of ds8 { (#,#) ipv8 ipv9 ->
+                               case GHC.List.lookup
+                                      @ (Graphics.UI.GLUT.Callbacks.Window.Key,
+                                         Graphics.UI.GLUT.Input.KeyEvent)
+                                      @ (Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                                         -> Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                                         -> GHC.Types.IO ())
+                                      Graphics.UI.GLUT.Input.$s$fEq(,)
+                                      (k, Graphics.UI.GLUT.Input.StillDown)
+                                      ipv9 of wild3 {
+                                 GHC.Base.Nothing -> a ys ipv8
+                                 GHC.Base.Just x
+                                 -> case (x mods pos) `cast` (GHC.Types.NTCo:IO[0] <()>_R)
+                                           ipv8 of ds9 { (#,#) ipv10 ipv11 ->
+                                    a ys ipv10 } } } } }
+                      } in
+                      a ipv7 ipv6 })
+                       `cast`
+                     (Sym (GHC.Types.NTCo:IO[0] <()>_R))) #) } } } } }) -}
+5661400ea588483d8f4b5b2efde483c0
+  glutInitInput2 :: Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Graphics.Rendering.OpenGL.GL.CoordTrans.Position
+                   0
+                   0) -}
+06a866e50028ca4e6774e1503387e719
+  glutInitInput3 :: Graphics.UI.GLUT.Callbacks.Window.Modifiers
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Graphics.UI.GLUT.Callbacks.Window.Modifiers
+                   Graphics.UI.GLUT.Callbacks.Window.Up
+                   Graphics.UI.GLUT.Callbacks.Window.Up
+                   Graphics.UI.GLUT.Callbacks.Window.Up) -}
+78bf6807dc24e7ba3c189f5cda991e22
+  glutInitInput4 ::
+    (Graphics.UI.GLUT.Callbacks.Window.Key,
+     Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+     Graphics.Rendering.OpenGL.GL.CoordTrans.Position)
+    -> (Graphics.UI.GLUT.Callbacks.Window.Key,
+        Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+        Graphics.Rendering.OpenGL.GL.CoordTrans.Position)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,A,A)><S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: (Graphics.UI.GLUT.Callbacks.Window.Key,
+                          Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                          Graphics.Rendering.OpenGL.GL.CoordTrans.Position)
+                   ds1 :: (Graphics.UI.GLUT.Callbacks.Window.Key,
+                           Graphics.UI.GLUT.Callbacks.Window.Modifiers,
+                           Graphics.Rendering.OpenGL.GL.CoordTrans.Position) ->
+                 case ds of wild { (,,) k ds2 ds3 ->
+                 case ds1 of wild1 { (,,) l ds4 ds5 ->
+                 Graphics.UI.GLUT.Callbacks.Window.$fEqKey_$c== k l } }) -}
+instance GHC.Classes.Eq [Graphics.UI.GLUT.Input.KeyEvent]
+  = Graphics.UI.GLUT.Input.$fEqKeyEvent
+"SPEC/Graphics.UI.GLUT.Input $fEq(,) @ Key @ KeyEvent" [ALWAYS] forall $dEq :: GHC.Classes.Eq
+                                                                                 Graphics.UI.GLUT.Callbacks.Window.Key
+                                                                       $dEq1 :: GHC.Classes.Eq
+                                                                                  Graphics.UI.GLUT.Input.KeyEvent
+  GHC.Classes.$fEq(,) @ Graphics.UI.GLUT.Callbacks.Window.Key
+                      @ Graphics.UI.GLUT.Input.KeyEvent
+                      $dEq
+                      $dEq1
+  = Graphics.UI.GLUT.Input.$s$fEq(,)
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

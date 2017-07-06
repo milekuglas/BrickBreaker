@@ -1,0 +1,471 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:31.5208192 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen 7103
+  interface hash: 7a8b17edcba7015f013950dbdbd669ea
+  ABI hash: ae6fce58a231384420ea27e4b0dc0309
+  export-list hash: e523cb9b4da6f2ee86472fed455c7651
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 961c0f1e4196efb4fd31bbe43caccd3c
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Display.display
+  Graphics.UI.Fungen.Game.addObjectsToGroup
+  Graphics.UI.Fungen.Game.addObjectsToNewGroup
+  Graphics.UI.Fungen.Game.clearScreen
+  Graphics.UI.Fungen.Game.createGame
+  Graphics.UI.Fungen.Game.destroyObject
+  Graphics.UI.Fungen.Game.destroyObjects
+  Graphics.UI.Fungen.Game.disableGameFlags
+  Graphics.UI.Fungen.Game.disableMapDrawing
+  Graphics.UI.Fungen.Game.disableObjectsDrawing
+  Graphics.UI.Fungen.Game.disableObjectsMoving
+  Graphics.UI.Fungen.Game.drawAllObjects
+  Graphics.UI.Fungen.Game.drawMap
+  Graphics.UI.Fungen.Game.drawObject
+  Graphics.UI.Fungen.Game.enableGameFlags
+  Graphics.UI.Fungen.Game.enableMapDrawing
+  Graphics.UI.Fungen.Game.enableObjectsDrawing
+  Graphics.UI.Fungen.Game.enableObjectsMoving
+  Graphics.UI.Fungen.Game.findObject
+  Graphics.UI.Fungen.Game.findObjectManager
+  Graphics.UI.Fungen.Game.getGameAttribute
+  Graphics.UI.Fungen.Game.getGameFlags
+  Graphics.UI.Fungen.Game.getGameState
+  Graphics.UI.Fungen.Game.getObjectAsleep
+  Graphics.UI.Fungen.Game.getObjectAttribute
+  Graphics.UI.Fungen.Game.getObjectGroupName
+  Graphics.UI.Fungen.Game.getObjectManagers
+  Graphics.UI.Fungen.Game.getObjectName
+  Graphics.UI.Fungen.Game.getObjectPosition
+  Graphics.UI.Fungen.Game.getObjectSize
+  Graphics.UI.Fungen.Game.getObjectSpeed
+  Graphics.UI.Fungen.Game.getObjectsFromGroup
+  Graphics.UI.Fungen.Game.getTileFromIndex
+  Graphics.UI.Fungen.Game.getTileFromWindowPosition
+  Graphics.UI.Fungen.Game.liftIOtoIOGame
+  Graphics.UI.Fungen.Game.liftIOtoIOGame'
+  Graphics.UI.Fungen.Game.moveAllObjects
+  Graphics.UI.Fungen.Game.objectBottomMapCollision
+  Graphics.UI.Fungen.Game.objectBottomMapFutureCollision
+  Graphics.UI.Fungen.Game.objectLeftMapCollision
+  Graphics.UI.Fungen.Game.objectLeftMapFutureCollision
+  Graphics.UI.Fungen.Game.objectListObjectCollision
+  Graphics.UI.Fungen.Game.objectListObjectFutureCollision
+  Graphics.UI.Fungen.Game.objectRightMapCollision
+  Graphics.UI.Fungen.Game.objectRightMapFutureCollision
+  Graphics.UI.Fungen.Game.objectTopMapCollision
+  Graphics.UI.Fungen.Game.objectTopMapFutureCollision
+  Graphics.UI.Fungen.Game.objectsCollision
+  Graphics.UI.Fungen.Game.objectsFutureCollision
+  Graphics.UI.Fungen.Game.pointsObjectCollision
+  Graphics.UI.Fungen.Game.pointsObjectListCollision
+  Graphics.UI.Fungen.Game.printOnPrompt
+  Graphics.UI.Fungen.Game.printOnScreen
+  Graphics.UI.Fungen.Game.printText
+  Graphics.UI.Fungen.Game.randomDouble
+  Graphics.UI.Fungen.Game.randomFloat
+  Graphics.UI.Fungen.Game.randomInt
+  Graphics.UI.Fungen.Game.replaceObject
+  Graphics.UI.Fungen.Game.reverseXSpeed
+  Graphics.UI.Fungen.Game.reverseYSpeed
+  Graphics.UI.Fungen.Game.runIOGame
+  Graphics.UI.Fungen.Game.runIOGameM
+  Graphics.UI.Fungen.Game.setCurrentMapIndex
+  Graphics.UI.Fungen.Game.setGameAttribute
+  Graphics.UI.Fungen.Game.setGameFlags
+  Graphics.UI.Fungen.Game.setGameState
+  Graphics.UI.Fungen.Game.setObjectAsleep
+  Graphics.UI.Fungen.Game.setObjectAttribute
+  Graphics.UI.Fungen.Game.setObjectCurrentPicture
+  Graphics.UI.Fungen.Game.setObjectManagers
+  Graphics.UI.Fungen.Game.setObjectPosition
+  Graphics.UI.Fungen.Game.setObjectSpeed
+  Graphics.UI.Fungen.Game.showFPS
+  Graphics.UI.Fungen.Game.wait
+  Graphics.UI.Fungen.Init.funExit
+  Graphics.UI.Fungen.Init.funInit
+  Graphics.UI.Fungen.Input.funInitInput
+  Graphics.UI.Fungen.Loader.loadBitmap
+  Graphics.UI.Fungen.Loader.loadBitmapList
+  Graphics.UI.Fungen.Map.clearGameScreen
+  Graphics.UI.Fungen.Map.colorMap
+  Graphics.UI.Fungen.Map.drawGameMap
+  Graphics.UI.Fungen.Map.getCurrentMap
+  Graphics.UI.Fungen.Map.getMapSize
+  Graphics.UI.Fungen.Map.getTileBlocked
+  Graphics.UI.Fungen.Map.getTileMapScroll
+  Graphics.UI.Fungen.Map.getTileMapSize
+  Graphics.UI.Fungen.Map.getTileMapTileMatrix
+  Graphics.UI.Fungen.Map.getTileMapTileSize
+  Graphics.UI.Fungen.Map.getTileMoveCost
+  Graphics.UI.Fungen.Map.getTilePictureIndex
+  Graphics.UI.Fungen.Map.getTileSpecialAttribute
+  Graphics.UI.Fungen.Map.isMultiMap
+  Graphics.UI.Fungen.Map.isTileMap
+  Graphics.UI.Fungen.Map.multiMap
+  Graphics.UI.Fungen.Map.textureMap
+  Graphics.UI.Fungen.Map.tileMap
+  Graphics.UI.Fungen.Map.updateCurrentIndex
+  Graphics.UI.Fungen.Map.updateCurrentMap
+  Graphics.UI.Fungen.Objects.addObjectsToManager
+  Graphics.UI.Fungen.Objects.destroyGameObject
+  Graphics.UI.Fungen.Objects.drawGameObject
+  Graphics.UI.Fungen.Objects.drawGameObjects
+  Graphics.UI.Fungen.Objects.findObjectFromId
+  Graphics.UI.Fungen.Objects.getGameObjectAsleep
+  Graphics.UI.Fungen.Objects.getGameObjectAttribute
+  Graphics.UI.Fungen.Objects.getGameObjectId
+  Graphics.UI.Fungen.Objects.getGameObjectManagerName
+  Graphics.UI.Fungen.Objects.getGameObjectName
+  Graphics.UI.Fungen.Objects.getGameObjectPosition
+  Graphics.UI.Fungen.Objects.getGameObjectSize
+  Graphics.UI.Fungen.Objects.getGameObjectSpeed
+  Graphics.UI.Fungen.Objects.getObjectManagerCounter
+  Graphics.UI.Fungen.Objects.getObjectManagerName
+  Graphics.UI.Fungen.Objects.getObjectManagerObjects
+  Graphics.UI.Fungen.Objects.moveGameObjects
+  Graphics.UI.Fungen.Objects.object
+  Graphics.UI.Fungen.Objects.objectGroup
+  Graphics.UI.Fungen.Objects.searchGameObject
+  Graphics.UI.Fungen.Objects.searchObjectManager
+  Graphics.UI.Fungen.Objects.updateObject
+  Graphics.UI.Fungen.Objects.updateObjectAsleep
+  Graphics.UI.Fungen.Objects.updateObjectAttribute
+  Graphics.UI.Fungen.Objects.updateObjectPicture
+  Graphics.UI.Fungen.Objects.updateObjectPosition
+  Graphics.UI.Fungen.Objects.updateObjectSize
+  Graphics.UI.Fungen.Objects.updateObjectSpeed
+  Graphics.UI.Fungen.Text.putGameText
+  Graphics.UI.Fungen.Timer.setRefresh
+  Graphics.UI.Fungen.Util.addNoInvisibility
+  Graphics.UI.Fungen.Util.bindTexture
+  Graphics.UI.Fungen.Util.dropGLsizei
+  Graphics.UI.Fungen.Util.inv2color3
+  Graphics.UI.Fungen.Util.isEmpty
+  Graphics.UI.Fungen.Util.ltrace
+  Graphics.UI.Fungen.Util.make0
+  Graphics.UI.Fungen.Util.matrixSize
+  Graphics.UI.Fungen.Util.matrixToList
+  Graphics.UI.Fungen.Util.mtrace
+  Graphics.UI.Fungen.Util.ord2
+  Graphics.UI.Fungen.Util.pathAndInv2color3List
+  Graphics.UI.Fungen.Util.point2DtoVertex3
+  Graphics.UI.Fungen.Util.pow2
+  Graphics.UI.Fungen.Util.racMod
+  Graphics.UI.Fungen.Util.randDouble
+  Graphics.UI.Fungen.Util.randFloat
+  Graphics.UI.Fungen.Util.randInt
+  Graphics.UI.Fungen.Util.shiftLeft
+  Graphics.UI.Fungen.Util.strace
+  Graphics.UI.Fungen.Util.texCoord2
+  Graphics.UI.Fungen.Util.texStuff
+  Graphics.UI.Fungen.Util.toBinary
+  Graphics.UI.Fungen.Util.toDecimal
+  Graphics.UI.Fungen.Util.toRad
+  Graphics.UI.Fungen.Util.tracewith
+  Graphics.UI.Fungen.Util.unless
+  Graphics.UI.Fungen.Util.vertex3
+  Graphics.UI.Fungen.Util.when
+  Graphics.UI.Fungen.Game.Game
+  Graphics.UI.Fungen.Game.IOGame
+  Graphics.UI.Fungen.Input.InputBinding
+  Graphics.UI.Fungen.Input.InputHandler
+  Graphics.UI.Fungen.Loader.FilePictureList
+  Graphics.UI.Fungen.Map.GameMap
+  Graphics.UI.Fungen.Map.Tile
+  Graphics.UI.Fungen.Map.TileMatrix
+  Graphics.UI.Fungen.Objects.FillMode{Graphics.UI.Fungen.Objects.Filled Graphics.UI.Fungen.Objects.Unfilled}
+  Graphics.UI.Fungen.Objects.GameObject
+  Graphics.UI.Fungen.Objects.ObjectManager
+  Graphics.UI.Fungen.Objects.ObjectPicture{Graphics.UI.Fungen.Objects.Basic Graphics.UI.Fungen.Objects.Tex}
+  Graphics.UI.Fungen.Objects.Primitive{Graphics.UI.Fungen.Objects.Circle Graphics.UI.Fungen.Objects.Polyg}
+  Graphics.UI.Fungen.Text.Text
+  Graphics.UI.Fungen.Timer.RefreshType{Graphics.UI.Fungen.Timer.Idle Graphics.UI.Fungen.Timer.Timer}
+  Graphics.UI.Fungen.Types.AwbfBitmap
+  Graphics.UI.Fungen.Types.ColorList3
+  Graphics.UI.Fungen.Types.InvList
+  Graphics.UI.Fungen.Types.Point2D
+  Graphics.UI.Fungen.Types.WindowConfig
+  Graphics.UI.GLUT.Input.KeyEvent{Graphics.UI.GLUT.Input.Press Graphics.UI.GLUT.Input.Release Graphics.UI.GLUT.Input.StillDown}
+  Graphics.UI.GLUT.Callbacks.Window.Key{Graphics.UI.GLUT.Callbacks.Window.Char Graphics.UI.GLUT.Callbacks.Window.MouseButton Graphics.UI.GLUT.Callbacks.Window.SpecialKey}
+  Graphics.UI.GLUT.Callbacks.Window.Modifiers{Graphics.UI.GLUT.Callbacks.Window.Modifiers Graphics.UI.GLUT.Callbacks.Window.alt Graphics.UI.GLUT.Callbacks.Window.ctrl Graphics.UI.GLUT.Callbacks.Window.shift}
+  Graphics.UI.GLUT.Callbacks.Window.SpecialKey{Graphics.UI.GLUT.Callbacks.Window.KeyAltL Graphics.UI.GLUT.Callbacks.Window.KeyAltR Graphics.UI.GLUT.Callbacks.Window.KeyBegin Graphics.UI.GLUT.Callbacks.Window.KeyCtrlL Graphics.UI.GLUT.Callbacks.Window.KeyCtrlR Graphics.UI.GLUT.Callbacks.Window.KeyDelete Graphics.UI.GLUT.Callbacks.Window.KeyDown Graphics.UI.GLUT.Callbacks.Window.KeyEnd Graphics.UI.GLUT.Callbacks.Window.KeyF1 Graphics.UI.GLUT.Callbacks.Window.KeyF10 Graphics.UI.GLUT.Callbacks.Window.KeyF11 Graphics.UI.GLUT.Callbacks.Window.KeyF12 Graphics.UI.GLUT.Callbacks.Window.KeyF2 Graphics.UI.GLUT.Callbacks.Window.KeyF3 Graphics.UI.GLUT.Callbacks.Window.KeyF4 Graphics.UI.GLUT.Callbacks.Window.KeyF5 Graphics.UI.GLUT.Callbacks.Window.KeyF6 Graphics.UI.GLUT.Callbacks.Window.KeyF7 Graphics.UI.GLUT.Callbacks.Window.KeyF8 Graphics.UI.GLUT.Callbacks.Window.KeyF9 Graphics.UI.GLUT.Callbacks.Window.KeyHome Graphics.UI.GLUT.Callbacks.Window.KeyInsert Graphics.UI.GLUT.Callbacks.Window.KeyLeft Graphics.UI.GLUT.Callbacks.Window.KeyNumLock Graphics.UI.GLUT.Callbacks.Window.KeyPageDown Graphics.UI.GLUT.Callbacks.Window.KeyPageUp Graphics.UI.GLUT.Callbacks.Window.KeyRight Graphics.UI.GLUT.Callbacks.Window.KeyShiftL Graphics.UI.GLUT.Callbacks.Window.KeyShiftR Graphics.UI.GLUT.Callbacks.Window.KeyUnknown Graphics.UI.GLUT.Callbacks.Window.KeyUp}
+  Graphics.UI.GLUT.Raw.Fonts.BitmapFont{Graphics.UI.GLUT.Raw.Fonts.Fixed8By13 Graphics.UI.GLUT.Raw.Fonts.Fixed9By15 Graphics.UI.GLUT.Raw.Fonts.Helvetica10 Graphics.UI.GLUT.Raw.Fonts.Helvetica12 Graphics.UI.GLUT.Raw.Fonts.Helvetica18 Graphics.UI.GLUT.Raw.Fonts.TimesRoman10 Graphics.UI.GLUT.Raw.Fonts.TimesRoman24}
+  Graphics.UI.GLUT.Types.MouseButton{Graphics.UI.GLUT.Types.AdditionalButton Graphics.UI.GLUT.Types.LeftButton Graphics.UI.GLUT.Types.MiddleButton Graphics.UI.GLUT.Types.RightButton Graphics.UI.GLUT.Types.WheelDown Graphics.UI.GLUT.Types.WheelUp}
+  Graphics.Rendering.OpenGL.GL.CoordTrans.Position{Graphics.Rendering.OpenGL.GL.CoordTrans.Position}
+module dependencies: Graphics.UI.Fungen.Display
+                     Graphics.UI.Fungen.Game Graphics.UI.Fungen.Init
+                     Graphics.UI.Fungen.Input Graphics.UI.Fungen.Loader
+                     Graphics.UI.Fungen.Map Graphics.UI.Fungen.Objects
+                     Graphics.UI.Fungen.Text Graphics.UI.Fungen.Timer
+                     Graphics.UI.Fungen.Types Graphics.UI.Fungen.Util
+                     Graphics.UI.GLUT.Input
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      Win32-2.3.1.0@Win32_ELFLzTRksT8Dql3wobiWvb
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Format.Parse
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Display 24f3df409f83fd6123848d9a833512bb
+  exports: cabf9b933d7e3441c1cc79555ca4f490
+  display 4fb4f74f836f0a631f50a91be91efd5f
+import  -/  Graphics.UI.Fungen.Game 242c57370acd0bff1108100111d54a9f
+  exports: 7d2e43115f047893962699afc7a6a4c0
+  Game b9dc93fcbb36f0b7b05b77ba74203b18
+  IOGame 023f764656429577791b816b79fd1cc6
+  addObjectsToGroup 283cdec68b1594cf44a29904d94ed05c
+  addObjectsToNewGroup 96e097ad4392984a42551882c60cb10d
+  clearScreen 4097e5870b0f750df17b23031f6b65f1
+  createGame d2b1265c2976b0761d137a3587e4212c
+  destroyObject 8102cec89c5ed302f9bef758b7ff3424
+  destroyObjects f993d65fb32348fc7a46de855dcde538
+  disableGameFlags a88f1b76fc27c47f07e8bc49956b2671
+  disableMapDrawing 0ff3f6e5bbcf021cc344b0b88f7bbd58
+  disableObjectsDrawing 0f0947ed02e56e5820ba4cfa83a084d5
+  disableObjectsMoving f54b04c7e01c73d381bb23822cff1ff2
+  drawAllObjects da8c0d89b1d97f862b022a6e10da85c0
+  drawMap ee8ccf30dee763a29468cd630b856700
+  drawObject 172c076b6af0f7af6abc1e8c051ab029
+  enableGameFlags 89be51fc298a807e38dc9b3d0a2ee3a5
+  enableMapDrawing 6eafa267ff72dd412308c67c687a0ae1
+  enableObjectsDrawing 7ce2c0a70b1b0a421e0795e034a8d344
+  enableObjectsMoving 528faba47d5c3397a4bd2b643497e8a1
+  findObject 3edcfffd0a5f6c0099ba7e55d3e07353
+  findObjectManager 4860c21c752622cbb7b499abee9bb990
+  getGameAttribute e78417d0345bb0217b0554c7f722bb34
+  getGameFlags 3e6d4473ddeaf257e34b58f3d49133c2
+  getGameState 27cdbcd6740e558d3cc69511bd891881
+  getObjectAsleep 9cbb60b41ea3dab7d3db58a797832437
+  getObjectAttribute 0575a1cd818c97a6081476fc1bed2662
+  getObjectGroupName 7d7c953d78f0d0f30570f7633b48207e
+  getObjectManagers f0896952a91209d501a542d8bf324a9c
+  getObjectName 3fdb9f1bbabaf1ac75f60c8da763baf5
+  getObjectPosition 90b20865977df41a8b6bb7c186f4db6f
+  getObjectSize 6276da68a92ae3e089cb794a98ac338f
+  getObjectSpeed 7f3d6405f20ab396d6819ad1bd631fc5
+  getObjectsFromGroup c814d73db39391ac73abff40829f1c1b
+  getTileFromIndex 7122fcd847a1cc37389a318f598c4fca
+  getTileFromWindowPosition f858c5e6ce2a2c1a575339ae32dbab76
+  liftIOtoIOGame b70774eb25301b322764ffdf5a9f3da6
+  liftIOtoIOGame' dbccaa8420a7c509ad8d4b8e2550ac69
+  moveAllObjects b6b5f01ff1213e71e9a2f6d59de173bf
+  objectBottomMapCollision 88b35e2a97ef32850634b9c341b9c06e
+  objectBottomMapFutureCollision 39a7b62690a6c0c863901f9789f29529
+  objectLeftMapCollision 07dff20b3fee63da83c82c242db388be
+  objectLeftMapFutureCollision 6bb0210b5695afed75c6b5f666b0e1a0
+  objectListObjectCollision b053e568f1bc4a68aac7a5fe750b2d3b
+  objectListObjectFutureCollision 21dfeab4f587f4c9c5fd65cf07ac9702
+  objectRightMapCollision f307e14cacfeef290a9597d6206a0bae
+  objectRightMapFutureCollision bf9cb9dbfcbf1c502b5adcbf3b79442a
+  objectTopMapCollision f0645b0a9dcf0ecedb124b1b6b5675a7
+  objectTopMapFutureCollision 6d1cef64d6cacad51848bc80c68be06a
+  objectsCollision 48862fbe91d0964be55ea3d10fdd55ee
+  objectsFutureCollision d8b4ee751671c69d5d477a9405a59e27
+  pointsObjectCollision 920066d3f237a95d77d8d157ac938640
+  pointsObjectListCollision 2ea9452925b3f2b149eebc73121ebb12
+  printOnPrompt 6fb4f88023c8428fcd24eb3af3415cd2
+  printOnScreen 027e2e05ca2e5a0c2ce570753a471ffe
+  printText dd28f8e28f81769452822b2ca42f900c
+  randomDouble f90bc119f9a80d4353481f91072fe513
+  randomFloat 6be7835f7382038e2756f5847abc2370
+  randomInt e5164476faf48fea726f1317b49bacb5
+  replaceObject 5f3d414a98c07042881adcd82d892f9f
+  reverseXSpeed 7aca16b915bb02cc21b7d80f3fb2c756
+  reverseYSpeed 20bff03dd8ec959564e9dae9b7769673
+  runIOGame ec722d89af5407040ea2a7e73ab7792b
+  runIOGameM ce39882368142e5fdb4a00f10a3529ed
+  setCurrentMapIndex ef659dc77384b3e4fe90e570ecbbd73e
+  setGameAttribute 00147441a077658ce5ea30ff1eceb551
+  setGameFlags baf1fbf2c4a5f4d5ad87d25161f59048
+  setGameState dea3075dc962a0db6f9ac5410a9f5f2b
+  setObjectAsleep 0acfff6f6e1e935cc8ff1d79f44f39c3
+  setObjectAttribute 2908c7178c5c604e362810ef276847e5
+  setObjectCurrentPicture 44a43ac546a594600f071f75da4ca87a
+  setObjectManagers 8aebf4daff84b8b229d45d4ef5f5142a
+  setObjectPosition d2ce71e2653eae4c23bf519393a4a08d
+  setObjectSpeed 4d3c114238c5363c5098f1709a14a8a3
+  showFPS a92734ad9c7f73fbbd996fe5970e0cdb
+  wait 544332d0805cdfa17ff4c17995b9a5ae
+import  -/  Graphics.UI.Fungen.Init d7d32a486641842e958b5936503bbd70
+  exports: fab3ce7e6e6be76830296c824f8b0f98
+  funExit 6393837a4472fff522e0a575a7a32319
+  funInit 2fd3fa73060634ab2284465279024266
+import  -/  Graphics.UI.Fungen.Input 2c76f29f20da1e483a5b20ff4a006f1b
+  exports: 79aaddf98b30257710e9fc34487852ef
+  InputBinding 3152bcb91b04ffe477f59685a4e15520
+  InputHandler c94ebcb1e71c05722a670188bb206b7b
+  funInitInput d740bd1eee3eda03b75c231b66be5bb7
+import  -/  Graphics.UI.Fungen.Loader f24d2703d632deff041b19fd2018857e
+  exports: dc3af7888dcfa4fd82d5322e42052e3d
+  FilePictureList 66496d5d334aab40dd115f000c4c4a69
+  loadBitmap 1f9df2fb9d91890096fa343af2b6de70
+  loadBitmapList c6eb3ee191f271b2d005ade89454c12c
+import  -/  Graphics.UI.Fungen.Map b6e0260dd8790a7481a84d2210a9e44b
+  exports: d775bc95dffcf787c0c16498da61eb4d
+  GameMap d60b958266525b239e58ec4acbb2bdbe
+  Tile 9f9f40d53b20d0b3ad13f51ca2e8a491
+  TileMatrix 6c2f0648c4ca2f6e0a470c382e289fe2
+  clearGameScreen bfd284c0d4a256e0794f4b0b59ff9bcc
+  colorMap 423efec46466fcc75ae6fd3e2ce47272
+  drawGameMap 318fd1f84b08ef9498342581cd546af9
+  getCurrentMap 963a08164f769a1e1f00701aa73f0636
+  getMapSize 10b40b8af9095b5f815d44f1747fe73c
+  getTileBlocked 62bd64a7e9bb57b5f14df112e65be4c3
+  getTileMapScroll be801e79c9089ba096d3b697c0006120
+  getTileMapSize 02417c65e63d931ffbb13239afd1d4df
+  getTileMapTileMatrix e9faea82bbdb22ac10ce5e1366f1d25d
+  getTileMapTileSize 26c403715a45d220f4aeb106709f7f0a
+  getTileMoveCost bce46838f59b0a638c8b56b7fc2536ba
+  getTilePictureIndex cbd7221e3ec6547df8c5f4972f4e871c
+  getTileSpecialAttribute f3972e99201a1e1e51d26db685d8143a
+  isMultiMap f16fe25a95f58a39b47fe798244b06d4
+  isTileMap 96c9c37af83ce317fc7a938e636948f3
+  multiMap f95f42d1f66174bc33ff683f545f4203
+  textureMap 9fd78adb82b562d222f578f7f15fb6c9
+  tileMap 6df820903a3575c10d843969dc0e48f6
+  updateCurrentIndex 689abd8eab31d335f2c854cf9ea57b5b
+  updateCurrentMap 1184421eb1440f9566a76a27c14a4942
+import  -/  Graphics.UI.Fungen.Objects e6cadc642ca019aab8b39b73fb90f14a
+  exports: 9c33ce45a7d5b7d445364566939c9b1b
+  Basic a244265dc4fe02c1dbbbb08f5242fc4e
+  Circle de98d0941eb6dfbdd7aeab4514545e14
+  FillMode ad46ba7f648818082343d9fb53975f1b
+  Filled c292b9a7d85dc813ff80c5b62196771b
+  GameObject d4d736dee85db9cb6ec4f037fdd9972e
+  ObjectManager de2db806c297d18809decd251e9427c6
+  ObjectPicture 6235add0fcee8eb25c847f40151396c8
+  Polyg a6094cb526962ce78ff25e67af4ff886
+  Primitive edda4f67b047b70a5bf7d2d0f9e9302d
+  Tex dba75112049eff088aa531a1db7e9de5
+  Unfilled be100425e39afa94b37de4b8aebb1603
+  addObjectsToManager d9bfc8aa4a6e65b899f39ed86f4dd412
+  destroyGameObject a2bf060d1ac49fef6913888afeb1791b
+  drawGameObject dff2ce8b559c57bc05e1364156f44aae
+  drawGameObjects 5733d79477873e47bbc221f536478b62
+  findObjectFromId 54d548e5b9f16b5665c1904622e951de
+  getGameObjectAsleep a10374f7450e5aa950d92a9bbf03fcf5
+  getGameObjectAttribute cf06e05d8429535d754a8ef22202d568
+  getGameObjectId af56962d9ed62aa2069cc16ecce94e63
+  getGameObjectManagerName e43bf39a18d01ae5db8296b7a0e2a87b
+  getGameObjectName 89dba856204352d2fe553f9f437c3c03
+  getGameObjectPosition e8ed94261efae2c7d60cbcd7c8291e4d
+  getGameObjectSize 170e898e31143cf29147d901637ce06a
+  getGameObjectSpeed 3c1fbe0cd823a52551bfc8ba03d54c40
+  getObjectManagerCounter 112209b06b5f9b0d17642b7745d9f0b4
+  getObjectManagerName 235394d312c5f1b93135292e4eb50ba5
+  getObjectManagerObjects 9414540a4ae0db4bbbfa48553bb11f26
+  moveGameObjects 672db7e65eb8a2fa5fb7dfc757461670
+  object b5f43ef38400aa00098c33254a1c9053
+  objectGroup 27908c14b1fd90478390e15fde1c2403
+  searchGameObject ebb4a9257c7c878f79f642ccf72983b2
+  searchObjectManager a8efd98db28055e5844a2e6a6f5bc298
+  updateObject a383104139f4aefbcfd27ceb601233d5
+  updateObjectAsleep ae8cdf35cc3dec0996de381ec7e666ca
+  updateObjectAttribute 1be48e10c2da88916e2c2b92bf8a6d0f
+  updateObjectPicture d4d5fef26549838d310eeffa766d32b5
+  updateObjectPosition 1f53cfe02552db350d1fe6fd598f9324
+  updateObjectSize 3454250657b4ea38cbe94760f0b2b412
+  updateObjectSpeed 93384ad88b35617f5bf55000ec49fbc7
+import  -/  Graphics.UI.Fungen.Text 673daff94813132004981158c4d24ee5
+  exports: c9145609f323b354c23dfdf859fb366f
+  Text 530c8f0a1594d17412164be312ac161b
+  putGameText b4ce24bb64203b1b0b116d1beceed347
+import  -/  Graphics.UI.Fungen.Timer 18a8b4904d417c7c5417ef135565e04e
+  exports: f152adcdb7a3d5b9946b9091c516b54f
+  Idle 5b2877b58450a5958fac5a3e54517167
+  RefreshType 878c8fffdb3877dbef81cc3dfefa45d2
+  Timer aa2c5265777f54001e5b91aa980adb1c
+  setRefresh 95be6094ec5d935362c084b1ab5f572d
+import  -/  Graphics.UI.Fungen.Types 266c0848bd0d02b9711b437939844328
+  exports: 5a8515e956ff2a99708d0d74d12ae2e4
+  AwbfBitmap fc88af62772c894caf360e28425a46fb
+  ColorList3 cd5952d2d5400410b7f53fa47f70ab66
+  InvList 32bfe2a33bc27a7c7c6c8d7c01d98acc
+  Point2D 7c3021d57c8a65dc6847d3db8a1deabf
+  WindowConfig 4da2bc592ac453c50b90d843e904c64d
+import  -/  Graphics.UI.Fungen.Util 1dc50c7d9817175bd0524f70badc9c85
+  exports: d89e4436dc42c1dda1231ce02c7c72ce
+  addNoInvisibility 6e22c417b6ce8a8fb0f93072545ab6a7
+  bindTexture c20895f26eb006680680a7b585b35ee0
+  dropGLsizei 3687608e61487d475068103b523b7287
+  inv2color3 6840e3e1dddb1d9eee264cd3fc8b121f
+  isEmpty 3929dcd759e5a0985c34e838eb78899e
+  ltrace e04ef44b94cc5e5e67b749deba84d615
+  make0 143291c4b0acb8f6830fb2f2c5418f63
+  matrixSize 928fa98ce83ff01eef5a6e8a710d8c50
+  matrixToList cd09d462ba79c318d21a2d2ca6dad56e
+  mtrace a68709246e45befe0d7ce826c6d7694c
+  ord2 a7ecd5b0194c6d3a0feac603dd7db26f
+  pathAndInv2color3List 424de9cf5f92eb89f6844a98f7276d85
+  point2DtoVertex3 57c3c4696f3557b459a8c404ff8e615b
+  pow2 b29dc166ba9d728ce06c16b8c51baf41
+  racMod 413e93465a2cb5ab460f84ba87ab671d
+  randDouble 390dc16b749233dd1989644a468a0026
+  randFloat 6a9055bcc056d1525a41c042b5818e1c
+  randInt b21799c9f046aa6f97b059b4501fbcab
+  shiftLeft 3353fb0cec2050c6b3101df62b2f7b40
+  strace 1206a3da8ec709c054603d87a05bf857
+  texCoord2 0e68b610762bea0f5f1724d259c56311
+  texStuff 02769941fcdc5491bc1cc39899ddfdd5
+  toBinary 8eb57ce320bcf0c07a011584d020e633
+  toDecimal 74ef83e20181f670a8bcd5acaa57d332
+  toRad b51733fdc4525f757a8c2cdeee0e781d
+  tracewith 09b015b587de9a07be28952f5d39c82b
+  unless 884a891bd04d9a11b90f940a12fa5792
+  vertex3 3040b491fd5be7922e1720cd55223d7b
+  when f06a0c4dfdee4d0d4de138156b7207a3
+import  -/  Graphics.UI.GLUT.Input d5a6dc920e7b171d14a51dcc1a3bd7bb
+  KeyEvent 7a97a96b9347cd17b6202b148091ceab
+  Press 835c4ebc87449794097e463a98b5dbb8
+  Release 359dfff8060f50319ad75ce1eb91c103
+  StillDown 2bf3672a29944051ab5279fc689c8e98
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Callbacks.Window 711d4e76e4c763d10dcd31a14d4082cb
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Raw.Fonts 03fce8fc16bbb2e52d3a5de4a918fb43
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Types b46228741128723d3778ef4a3a7c2d14
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.CoordTrans 8b660450943639e0aadeddc7e820344c
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

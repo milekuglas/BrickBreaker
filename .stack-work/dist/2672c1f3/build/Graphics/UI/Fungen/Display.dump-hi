@@ -1,0 +1,356 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:30.9765321 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Display 7103
+  interface hash: b8709bd3d1e84c374eb0dc3405ae7ad9
+  ABI hash: 24f3df409f83fd6123848d9a833512bb
+  export-list hash: cabf9b933d7e3441c1cc79555ca4f490
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Display.display
+module dependencies: Graphics.UI.Fungen.Game
+                     Graphics.UI.Fungen.Loader Graphics.UI.Fungen.Map
+                     Graphics.UI.Fungen.Objects Graphics.UI.Fungen.Text
+                     Graphics.UI.Fungen.Types Graphics.UI.Fungen.Util
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      Win32-2.3.1.0@Win32_ELFLzTRksT8Dql3wobiWvb
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Format.Parse
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Game 242c57370acd0bff1108100111d54a9f
+  exports: 7d2e43115f047893962699afc7a6a4c0
+  Game b9dc93fcbb36f0b7b05b77ba74203b18
+  IOGame 023f764656429577791b816b79fd1cc6
+  drawAllObjects da8c0d89b1d97f862b022a6e10da85c0
+  drawMap ee8ccf30dee763a29468cd630b856700
+  getGameFlags 3e6d4473ddeaf257e34b58f3d49133c2
+  moveAllObjects b6b5f01ff1213e71e9a2f6d59de173bf
+  printText dd28f8e28f81769452822b2ca42f900c
+  runIOGame ec722d89af5407040ea2a7e73ab7792b
+import  -/  Graphics.UI.Fungen.Util 1dc50c7d9817175bd0524f70badc9c85
+  exports: d89e4436dc42c1dda1231ce02c7c72ce
+  when f06a0c4dfdee4d0d4de138156b7207a3
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT 5f96c81bc741688b59291cc04889046c
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Callbacks.Window 711d4e76e4c763d10dcd31a14d4082cb
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Window c736ea9cb6fe2eb93f451f73701e4af0
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL fd51d1cc1b32b2dc8d731f8d5809eb7e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.FlushFinish 0e6ed04d7f2325b5452fe1d02e37186e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Framebuffer a303cd2d220e5a06dbc6cc81d04bc783
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+08c9c459b152fe95911857aa449f3896
+  $wa ::
+    GHC.IORef.IORef (Graphics.UI.Fungen.Map.GameMap v)
+    -> GHC.IORef.IORef u
+    -> GHC.Prim.MutVar#
+         GHC.Prim.RealWorld Graphics.UI.Fungen.Game.GameFlags
+    -> GHC.IORef.IORef [Graphics.UI.Fungen.Objects.ObjectManager s]
+    -> GHC.IORef.IORef [Graphics.UI.Fungen.Text.Text]
+    -> Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+    -> GHC.IORef.IORef Graphics.UI.Fungen.Types.WindowConfig
+    -> GHC.IORef.IORef t
+    -> GHC.IORef.IORef
+         [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.IORef.IORef (GHC.Types.Int, GHC.Types.Int, GHC.Types.Float)
+    -> Graphics.UI.Fungen.Game.IOGame t s u v ()
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 12,
+     Strictness: <L,U><L,U><L,U><L,U(U)><L,U><L,U><L,U><L,U><L,U><L,U><L,1*C1(C1(U(U,1*U(1*U(U(U),U,U(U),U(U),U(U),U,U(U),U,U(U),U),A))))><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ t
+                   @ s
+                   @ u
+                   @ v
+                   ww :: GHC.IORef.IORef (Graphics.UI.Fungen.Map.GameMap v)
+                   ww1 :: GHC.IORef.IORef u
+                   ww2 :: GHC.Prim.MutVar#
+                            GHC.Prim.RealWorld Graphics.UI.Fungen.Game.GameFlags
+                   ww3 :: GHC.IORef.IORef [Graphics.UI.Fungen.Objects.ObjectManager s]
+                   ww4 :: GHC.IORef.IORef [Graphics.UI.Fungen.Text.Text]
+                   ww5 :: Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+                   ww6 :: GHC.IORef.IORef Graphics.UI.Fungen.Types.WindowConfig
+                   ww7 :: GHC.IORef.IORef t
+                   ww8 :: GHC.IORef.IORef
+                            [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+                   ww9 :: GHC.IORef.IORef
+                            (GHC.Types.Int, GHC.Types.Int, GHC.Types.Float)
+                   w :: Graphics.UI.Fungen.Game.IOGame t s u v ()
+                   w1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Graphics.GL.Functions.F02.ptr_glClear of ds2 { GHC.Ptr.FunPtr ds3 ->
+                 case Graphics.Rendering.OpenGL.GL.Framebuffer.$wgo
+                        Graphics.UI.Fungen.Display.display2
+                        __word 0 of ww10 { DEFAULT ->
+                 case {__dyn_ccall_GC "" GHC.Prim.Addr#
+                                         -> GHC.Prim.Word#
+                                         -> GHC.Prim.State# GHC.Prim.RealWorld
+                                         -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                        ds3
+                        ww10
+                        w1 of wild { (##) ds6 ->
+                 case GHC.Prim.readMutVar#
+                        @ GHC.Prim.RealWorld
+                        @ Graphics.UI.Fungen.Game.GameFlags
+                        ww2
+                        ds6 of ds10 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild1 { (,,) ds ds1 objectsMoving ->
+                 case objectsMoving of wild2 {
+                   GHC.Types.False
+                   -> case (w `cast`
+                            (Graphics.UI.Fungen.Game.NTCo:IOGame[0]
+                                 <t>_R <s>_R <u>_R <v>_R <()>_R)
+                              (Graphics.UI.Fungen.Game.Game
+                                 @ t
+                                 @ s
+                                 @ u
+                                 @ v
+                                 ww
+                                 ww1
+                                 (GHC.STRef.STRef
+                                    @ GHC.Prim.RealWorld
+                                    @ Graphics.UI.Fungen.Game.GameFlags
+                                    ww2)
+                                   `cast`
+                                 (Sym (GHC.IORef.NTCo:IORef[0]) <Graphics.UI.Fungen.Game.GameFlags>_N)
+                                 ww3
+                                 ww4
+                                 ww5
+                                 ww6
+                                 ww7
+                                 ww8
+                                 ww9))
+                             `cast`
+                           (GHC.Types.NTCo:IO[0]
+                                <(Graphics.UI.Fungen.Game.Game t s u v, ())>_R)
+                             ipv of ds5 { (#,#) ipv2 ipv3 ->
+                      case ipv3 of wild3 { (,) s' v1 ->
+                      case s' of ww11 { Graphics.UI.Fungen.Game.Game ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ->
+                      case ww14
+                             `cast`
+                           (GHC.IORef.NTCo:IORef[0] <Graphics.UI.Fungen.Game.GameFlags>_N) of ww22 { GHC.STRef.STRef ww23 ->
+                      case Graphics.UI.Fungen.Display.$wa1
+                             @ t
+                             @ s
+                             @ u
+                             @ v
+                             ww12
+                             ww13
+                             ww23
+                             ww15
+                             ww16
+                             ww17
+                             ww18
+                             ww19
+                             ww20
+                             ww21
+                             ipv2 of ds7 { (#,#) ipv4 ipv5 ->
+                      case Graphics.UI.GLUT.Raw.Functions.ptr_glutSwapBuffers
+                             @ (GHC.Types.IO ()) of ds8 { GHC.Ptr.FunPtr ds9 ->
+                      case {__dyn_ccall_GC "" GHC.Prim.Addr#
+                                              -> GHC.Prim.State# GHC.Prim.RealWorld
+                                              -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                             ds9
+                             ipv4 of wild4 { (##) ds11 ->
+                      Graphics.GL.Functions.F07.glFlush1 ds11 } } } } } } }
+                   GHC.Types.True
+                   -> case ww3
+                             `cast`
+                           (GHC.IORef.NTCo:IORef[0] <[Graphics.UI.Fungen.Objects.ObjectManager
+                                                        s]>_N) of wild3 { GHC.STRef.STRef var# ->
+                      case GHC.Prim.readMutVar#
+                             @ GHC.Prim.RealWorld
+                             @ [Graphics.UI.Fungen.Objects.ObjectManager s]
+                             var#
+                             ipv of ds5 { (#,#) ipv2 ipv3 ->
+                      case GHC.Prim.writeMutVar#
+                             @ GHC.Prim.RealWorld
+                             @ [Graphics.UI.Fungen.Objects.ObjectManager s]
+                             var#
+                             (Graphics.UI.Fungen.Objects.moveGameObjects @ s ipv3)
+                             ipv2 of s2# { DEFAULT ->
+                      case (w `cast`
+                            (Graphics.UI.Fungen.Game.NTCo:IOGame[0]
+                                 <t>_R <s>_R <u>_R <v>_R <()>_R)
+                              (Graphics.UI.Fungen.Game.Game
+                                 @ t
+                                 @ s
+                                 @ u
+                                 @ v
+                                 ww
+                                 ww1
+                                 (GHC.STRef.STRef
+                                    @ GHC.Prim.RealWorld
+                                    @ Graphics.UI.Fungen.Game.GameFlags
+                                    ww2)
+                                   `cast`
+                                 (Sym (GHC.IORef.NTCo:IORef[0]) <Graphics.UI.Fungen.Game.GameFlags>_N)
+                                 wild3
+                                   `cast`
+                                 (Sym (GHC.IORef.NTCo:IORef[0]) <[Graphics.UI.Fungen.Objects.ObjectManager
+                                                                    s]>_N)
+                                 ww4
+                                 ww5
+                                 ww6
+                                 ww7
+                                 ww8
+                                 ww9))
+                             `cast`
+                           (GHC.Types.NTCo:IO[0]
+                                <(Graphics.UI.Fungen.Game.Game t s u v, ())>_R)
+                             s2# of ds7 { (#,#) ipv4 ipv5 ->
+                      case ipv5 of wild4 { (,) s' v1 ->
+                      case s' of ww11 { Graphics.UI.Fungen.Game.Game ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ->
+                      case ww14
+                             `cast`
+                           (GHC.IORef.NTCo:IORef[0] <Graphics.UI.Fungen.Game.GameFlags>_N) of ww22 { GHC.STRef.STRef ww23 ->
+                      case Graphics.UI.Fungen.Display.$wa1
+                             @ t
+                             @ s
+                             @ u
+                             @ v
+                             ww12
+                             ww13
+                             ww23
+                             ww15
+                             ww16
+                             ww17
+                             ww18
+                             ww19
+                             ww20
+                             ww21
+                             ipv4 of ds8 { (#,#) ipv6 ipv7 ->
+                      case Graphics.UI.GLUT.Raw.Functions.ptr_glutSwapBuffers
+                             @ (GHC.Types.IO ()) of ds9 { GHC.Ptr.FunPtr ds11 ->
+                      case {__dyn_ccall_GC "" GHC.Prim.Addr#
+                                              -> GHC.Prim.State# GHC.Prim.RealWorld
+                                              -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                             ds11
+                             ipv6 of wild5 { (##) ds12 ->
+                      Graphics.GL.Functions.F07.glFlush1
+                        ds12 } } } } } } } } } } } } } } } }) -}
+b12856e2c17339a8d6247ab2b7319287
+  $wa1 ::
+    GHC.IORef.IORef (Graphics.UI.Fungen.Map.GameMap v)
+    -> GHC.IORef.IORef u
+    -> GHC.Prim.MutVar#
+         GHC.Prim.RealWorld Graphics.UI.Fungen.Game.GameFlags
+    -> GHC.IORef.IORef [Graphics.UI.Fungen.Objects.ObjectManager s]
+    -> GHC.IORef.IORef [Graphics.UI.Fungen.Text.Text]
+    -> Graphics.Rendering.OpenGL.GLU.Quadrics.QuadricPrimitive
+    -> GHC.IORef.IORef Graphics.UI.Fungen.Types.WindowConfig
+    -> GHC.IORef.IORef t
+    -> GHC.IORef.IORef
+         [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> GHC.IORef.IORef (GHC.Types.Int, GHC.Types.Int, GHC.Types.Float)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Graphics.UI.Fungen.Game.Game t s u v, ()) #)
+  {- Arity: 11,
+     Strictness: <L,U(U)><L,U><L,U><L,U(U)><L,U(U)><L,U><L,U(U)><L,U><L,U(U)><L,U><L,U>,
+     Inline: [0] -}
+4fb4f74f836f0a631f50a91be91efd5f
+  display ::
+    Graphics.UI.Fungen.Game.Game t s u v
+    -> Graphics.UI.Fungen.Game.IOGame t s u v ()
+    -> Graphics.UI.GLUT.Callbacks.Window.DisplayCallback
+  {- Arity: 3,
+     Strictness: <S(LLSLLLLLLL),1*U(U,U,U(U),U(U),U,U,U,U,U,U)><L,1*C1(C1(U(U,1*U(1*U(U(U),U,U(U),U(U),U(U),U,U(U),U,U(U),U),A))))><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Display.display1
+                  `cast`
+                (forall t s u v.
+                 <Graphics.UI.Fungen.Game.Game t s u v>_R
+                 ->_R <Graphics.UI.Fungen.Game.IOGame t s u v ()>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+8f0a9aef6e1be36b175e4b7f35eb11bb
+  display1 ::
+    Graphics.UI.Fungen.Game.Game t s u v
+    -> Graphics.UI.Fungen.Game.IOGame t s u v ()
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3,
+     Strictness: <S(LLSLLLLLLL),1*U(U,U,U(U),U(U),U,U,U,U,U,U)><L,1*C1(C1(U(U,1*U(1*U(U(U),U,U(U),U(U),U(U),U,U(U),U,U(U),U),A))))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ t
+                   @ s
+                   @ u
+                   @ v
+                   w :: Graphics.UI.Fungen.Game.Game t s u v
+                   w1 :: Graphics.UI.Fungen.Game.IOGame t s u v ()
+                   w2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case w of ww { Graphics.UI.Fungen.Game.Game ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ->
+                 case ww3
+                        `cast`
+                      (GHC.IORef.NTCo:IORef[0] <Graphics.UI.Fungen.Game.GameFlags>_N) of ww11 { GHC.STRef.STRef ww12 ->
+                 Graphics.UI.Fungen.Display.$wa
+                   @ t
+                   @ s
+                   @ u
+                   @ v
+                   ww1
+                   ww2
+                   ww12
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   ww10
+                   w1
+                   w2 } }) -}
+85acf9f8428d91bd14416a255d8326d0
+  display2 :: [Graphics.Rendering.OpenGL.GL.Framebuffer.ClearBuffer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Graphics.Rendering.OpenGL.GL.Framebuffer.ClearBuffer
+                   Graphics.Rendering.OpenGL.GL.Framebuffer.ColorBuffer
+                   (GHC.Types.[]
+                      @ Graphics.Rendering.OpenGL.GL.Framebuffer.ClearBuffer)) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

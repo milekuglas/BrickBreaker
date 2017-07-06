@@ -1,0 +1,594 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:27.2666006 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Util 7103
+  interface hash: c066f6ad43ffc9e3762a27a82fc0f744
+  ABI hash: 1dc50c7d9817175bd0524f70badc9c85
+  export-list hash: d89e4436dc42c1dda1231ce02c7c72ce
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Util.addNoInvisibility
+  Graphics.UI.Fungen.Util.bindTexture
+  Graphics.UI.Fungen.Util.dropGLsizei
+  Graphics.UI.Fungen.Util.inv2color3
+  Graphics.UI.Fungen.Util.isEmpty
+  Graphics.UI.Fungen.Util.ltrace
+  Graphics.UI.Fungen.Util.make0
+  Graphics.UI.Fungen.Util.matrixSize
+  Graphics.UI.Fungen.Util.matrixToList
+  Graphics.UI.Fungen.Util.mtrace
+  Graphics.UI.Fungen.Util.ord2
+  Graphics.UI.Fungen.Util.pathAndInv2color3List
+  Graphics.UI.Fungen.Util.point2DtoVertex3
+  Graphics.UI.Fungen.Util.pow2
+  Graphics.UI.Fungen.Util.racMod
+  Graphics.UI.Fungen.Util.randDouble
+  Graphics.UI.Fungen.Util.randFloat
+  Graphics.UI.Fungen.Util.randInt
+  Graphics.UI.Fungen.Util.shiftLeft
+  Graphics.UI.Fungen.Util.strace
+  Graphics.UI.Fungen.Util.texCoord2
+  Graphics.UI.Fungen.Util.texStuff
+  Graphics.UI.Fungen.Util.toBinary
+  Graphics.UI.Fungen.Util.toDecimal
+  Graphics.UI.Fungen.Util.toRad
+  Graphics.UI.Fungen.Util.tracewith
+  Graphics.UI.Fungen.Util.unless
+  Graphics.UI.Fungen.Util.vertex3
+  Graphics.UI.Fungen.Util.when
+module dependencies: Graphics.UI.Fungen.Types
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      Win32-2.3.1.0@Win32_ELFLzTRksT8Dql3wobiWvb
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Format.Parse
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Types 266c0848bd0d02b9711b437939844328
+  exports: 5a8515e956ff2a99708d0d74d12ae2e4
+  AwbfBitmap fc88af62772c894caf360e28425a46fb
+  ColorList3 cd5952d2d5400410b7f53fa47f70ab66
+  InvList 32bfe2a33bc27a7c7c6c8d7c01d98acc
+  Point2D 7c3021d57c8a65dc6847d3db8a1deabf
+import  -/  OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp:Graphics.GL.Types dcfcd78bfbb0424c346b4cc12e92f0c2
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL fd51d1cc1b32b2dc8d731f8d5809eb7e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.PixelRectangles.ColorTable acaf5cce692e975a9d882df682c69f61
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Tensor 40e4e1c069a8aa7ff4790f79e34bd27f
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.Filter f9689c287fa76979096280d73a63101b
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.Objects 66a4f4e60b91dd8af3be1b3337322fce
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.Parameters 6942c4bd30dbf48e438f1314b949cd5b
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.PixelInternalFormat 3fe7b9e565be91d4357cae3bd5f92062
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.Specification a38f44b55e045d214caab1d825d9cf67
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.TextureObject d26537372ba973dddf8ce811898bbb6e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Texturing.TextureTarget 18d8ebf6fe04879a681c545fd1cd75fd
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexAttributes 05bcf4807149f18b48a9344316439f52
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexSpec 1b647f635f79bd7946e79b4162a96f2a
+import  -/  StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy:Data.StateVar a47bcf36d75f50e1f83a933cd25c1485
+import  -/  base-4.8.2.0:Data.Foldable 2ce969969ad5231eb40bd713f94f05ad
+import  -/  base-4.8.2.0:Debug.Trace f8f786df340caa85e3cbdf2f34a0225c
+import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
+import  -/  base-4.8.2.0:GHC.Enum debc6de3086023a15993ab0cecffb90b
+import  -/  base-4.8.2.0:GHC.Float e532d434ec2447d809887c0fca1d78a5
+import  -/  base-4.8.2.0:GHC.IO bb5b81adcea33b14bd4abe16d7dde45f
+import  -/  base-4.8.2.0:GHC.List 0c736920522bbd14b770342776012ab6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb:System.Random c4d7b13b9d060df8dfcb3218b0d35238
+239b9c989074c47e66f1fcb8c39d2780
+  $wdropGLsizei :: GHC.Prim.Int# -> [a] -> [a]
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>, Inline: [0] -}
+de0f1900159f629f752a90b7d248b89c
+  $wmake0 :: GHC.Prim.Int# -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+0718fb5d5bc987bfcdf747f8ff4a6df6
+  $word2 :: GHC.Prim.Char# -> GHC.Prim.Word#
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Char# ->
+                 let {
+                   ww1 :: GHC.Prim.Int# = GHC.Prim.ord# ww
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww1 0) of wild {
+                   GHC.Types.False
+                   -> case GHC.Word.$fEnumWord13 ww1 ret_ty GHC.Prim.Word# of {}
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# ww1 255) of wild1 {
+                        GHC.Types.False
+                        -> case GHC.Word.$fEnumWord13 ww1 ret_ty GHC.Prim.Word# of {}
+                        GHC.Types.True -> GHC.Prim.int2Word# ww1 } }) -}
+e358851d99d414cf188be5767babf0be
+  $wpow2 :: GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+7a783f281e5792e469df2049b296a5fb
+  $wracMod ::
+    GHC.Prim.Double# -> GHC.Prim.Double# -> GHC.Prim.Double#
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Double# ww1 :: GHC.Prim.Double# ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=## ww 0.0) of wild {
+                   GHC.Types.False
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.>## (GHC.Prim.+## ww ww1) 0.0) of wild1 {
+                        GHC.Types.False
+                        -> Graphics.UI.Fungen.Util.$wracModPos (GHC.Prim.+## ww ww1) ww1
+                        GHC.Types.True -> ww }
+                   GHC.Types.True -> Graphics.UI.Fungen.Util.$wracModPos ww ww1 }) -}
+62d68c39bd88c5980f7f269f98ddb1da
+  $wracModPos ::
+    GHC.Prim.Double# -> GHC.Prim.Double# -> GHC.Prim.Double#
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><L,U>, Inline: [0] -}
+aa40882840c191472ca15ddcc5543cc2
+  $wshiftLeft :: GHC.Base.String -> GHC.Prim.Int# -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>, Inline: [0] -}
+05fca45d363e8b177eaaef64150c49cc
+  $wtoBinary :: GHC.Prim.Int# -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>, Inline: [0] -}
+49b01655db98ee739fc06bc0f6319a29
+  $wtoDecimalAux ::
+    GHC.Base.String -> Graphics.GL.Types.GLsizei -> GHC.Prim.Int#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,1*U(1*U)>,
+     Inline: [0] -}
+6e22c417b6ce8a8fb0f93072545ab6a7
+  addNoInvisibility ::
+    [GHC.IO.FilePath]
+    -> [(GHC.IO.FilePath,
+         GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3)]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+c20895f26eb006680680a7b585b35ee0
+  bindTexture ::
+    Graphics.Rendering.OpenGL.GL.Texturing.TextureTarget.TextureTarget2D
+    -> Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject
+    -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ tt :: Graphics.Rendering.OpenGL.GL.Texturing.TextureTarget.TextureTarget2D
+                   to :: Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject ->
+                 case Graphics.Rendering.OpenGL.GL.Texturing.Objects.$wtextureBinding
+                        @ Graphics.Rendering.OpenGL.GL.Texturing.TextureTarget.TextureTarget2D
+                        Graphics.Rendering.OpenGL.GL.Texturing.TextureTarget.$fBindableTextureTargetTextureTarget2D
+                        tt of ww { (#,#) ww1 ww2 ->
+                 ww2
+                   (GHC.Base.Just
+                      @ Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject
+                      to) }) -}
+3687608e61487d475068103b523b7287
+  dropGLsizei :: Graphics.GL.Types.GLsizei -> [a] -> [a]
+  {- Arity: 2, Strictness: <S(S),1*U(1*U)><S,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a2 w :: Graphics.GL.Types.GLsizei w1 :: [a2] ->
+                 case w of ww { GHC.Int.I32# ww1 ->
+                 Graphics.UI.Fungen.Util.$wdropGLsizei @ a2 ww1 w1 }) -}
+6840e3e1dddb1d9eee264cd3fc8b121f
+  inv2color3 ::
+    Graphics.UI.Fungen.Types.InvList
+    -> GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: GHC.Base.Maybe
+                           [(GHC.Types.Int, GHC.Types.Int, GHC.Types.Int)] ->
+                 case ds of wild {
+                   GHC.Base.Nothing
+                   -> GHC.Base.Nothing @ Graphics.UI.Fungen.Types.ColorList3
+                   GHC.Base.Just l
+                   -> GHC.Base.Just
+                        @ Graphics.UI.Fungen.Types.ColorList3
+                        (Graphics.UI.Fungen.Util.inv2color3Aux l) }) -}
+16e8e0fd19b8d1c9b43e85951520dc8f
+  inv2color3Aux ::
+    [(GHC.Types.Int, GHC.Types.Int, GHC.Types.Int)]
+    -> [(Graphics.GL.Types.GLubyte,
+         Graphics.GL.Types.GLubyte,
+         Graphics.GL.Types.GLubyte)]
+  {- Arity: 1, Strictness: <S,1*U> -}
+3929dcd759e5a0985c34e838eb78899e
+  isEmpty :: [a] -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a2 ds :: [a2] ->
+                 case ds of wild {
+                   [] -> GHC.Types.True : ipv ipv1 -> GHC.Types.False }) -}
+e04ef44b94cc5e5e67b749deba84d615
+  ltrace :: GHC.Show.Show a => GHC.Base.String -> a -> a
+  {- Arity: 3, Strictness: <L,1*U(A,1*C1(U),A)><L,1*U><L,U>,
+     Unfolding: (\ @ a2
+                   $dShow :: GHC.Show.Show a2
+                   l :: GHC.Base.String
+                   a3 :: a2 ->
+                 Debug.Trace.trace
+                   @ a2
+                   (GHC.Base.++
+                      @ GHC.Types.Char
+                      l
+                      (GHC.CString.unpackAppendCString#
+                         ": "#
+                         (GHC.Show.show @ a2 $dShow a3)))
+                   a3) -}
+143291c4b0acb8f6830fb2f2c5418f63
+  make0 :: GHC.Types.Int -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Int ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Graphics.UI.Fungen.Util.$wmake0 ww1 }) -}
+928fa98ce83ff01eef5a6e8a710d8c50
+  matrixSize :: [[a]] -> (GHC.Types.Int, GHC.Types.Int)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a2 w :: [[a2]] ->
+                 case w of wild {
+                   []
+                   -> (Graphics.UI.Fungen.Util.matrixSize1,
+                       Graphics.UI.Fungen.Util.matrixSize1)
+                   : a3 ds
+                   -> (case GHC.List.$wlenAcc @ [a2] wild 0 of ww2 { DEFAULT ->
+                       GHC.Types.I# (GHC.Prim.-# ww2 1) },
+                       case GHC.List.$wlenAcc @ a2 a3 0 of ww2 { DEFAULT ->
+                       GHC.Types.I# (GHC.Prim.-# ww2 1) }) }) -}
+227fcac7f5bd87794ed3e5959e5fb7a2
+  matrixSize1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
+cd09d462ba79c318d21a2d2ca6dad56e
+  matrixToList :: [[a]] -> [a]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+a68709246e45befe0d7ce826c6d7694c
+  mtrace :: (GHC.Base.Monad m, GHC.Show.Show a) => a -> m a
+  {- Arity: 3,
+     Strictness: <S(LLLC(S)L),1*U(A,A,A,1*C1(U),A)><L,1*U(A,1*C1(U),A)><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a2
+                   @ (m :: * -> *)
+                   $dMonad :: GHC.Base.Monad m
+                   $dShow :: GHC.Show.Show a2
+                   a3 :: a2 ->
+                 case Debug.Trace.trace
+                        @ a2
+                        (GHC.Show.show @ a2 $dShow a3)
+                        a3 of wild { DEFAULT ->
+                 GHC.Base.return @ m $dMonad @ a2 a3 }) -}
+a7ecd5b0194c6d3a0feac603dd7db26f
+  ord2 :: GHC.Types.Char -> Graphics.GL.Types.GLubyte
+  {- Arity: 1, Strictness: <S,1*U(U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Char ->
+                 case w of ww { GHC.Types.C# ww1 ->
+                 case Graphics.UI.Fungen.Util.$word2 ww1 of ww2 { DEFAULT ->
+                 GHC.Word.W8# ww2 } }) -}
+424de9cf5f92eb89f6844a98f7276d85
+  pathAndInv2color3List ::
+    (GHC.IO.FilePath, Graphics.UI.Fungen.Types.InvList)
+    -> (GHC.IO.FilePath,
+        GHC.Base.Maybe Graphics.UI.Fungen.Types.ColorList3)
+  {- Arity: 1, Strictness: <S(LS),1*U(U,1*U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: (GHC.IO.FilePath, Graphics.UI.Fungen.Types.InvList) ->
+                 case ds of wild { (,) f ds1 ->
+                 case ds1 of wild1 {
+                   GHC.Base.Nothing
+                   -> (f, GHC.Base.Nothing @ Graphics.UI.Fungen.Types.ColorList3)
+                   GHC.Base.Just l
+                   -> (f,
+                       GHC.Base.Just
+                         @ Graphics.UI.Fungen.Types.ColorList3
+                         (Graphics.UI.Fungen.Util.inv2color3Aux l)) } }) -}
+57c3c4696f3557b459a8c404ff8e615b
+  point2DtoVertex3 ::
+    [Graphics.UI.Fungen.Types.Point2D]
+    -> [Graphics.Rendering.OpenGL.GL.Tensor.Vertex3
+          Graphics.GL.Types.GLdouble]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+b29dc166ba9d728ce06c16b8c51baf41
+  pow2 :: Graphics.GL.Types.GLsizei -> Graphics.GL.Types.GLsizei
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Graphics.GL.Types.GLsizei ->
+                 case w of ww { GHC.Int.I32# ww1 ->
+                 case Graphics.UI.Fungen.Util.$wpow2 ww1 of ww2 { DEFAULT ->
+                 GHC.Int.I32# ww2 } }) -}
+413e93465a2cb5ab460f84ba87ab671d
+  racMod ::
+    Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble -> Graphics.GL.Types.GLdouble
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U(U)><S,1*U(U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Graphics.GL.Types.GLdouble
+                   w1 :: Graphics.GL.Types.GLdouble ->
+                 case w of ww { GHC.Types.D# ww1 ->
+                 case w1 of ww2 { GHC.Types.D# ww3 ->
+                 case Graphics.UI.Fungen.Util.$wracMod ww1 ww3 of ww4 { DEFAULT ->
+                 GHC.Types.D# ww4 } } }) -}
+390dc16b749233dd1989644a468a0026
+  randDouble ::
+    (GHC.Types.Double, GHC.Types.Double)
+    -> GHC.Types.IO GHC.Types.Double
+  {- Arity: 2, Strictness: <S,1*U(U(U),U(U))><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Util.randDouble1
+                  `cast`
+                (<(GHC.Types.Double, GHC.Types.Double)>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Types.Double>_R)) -}
+ac32ccd85f7626aa6c474c59bbfac3de
+  randDouble1 ::
+    (GHC.Types.Double, GHC.Types.Double)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Double #)
+  {- Arity: 2, Strictness: <S,1*U(U(U),U(U))><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: (GHC.Types.Double, GHC.Types.Double)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a2 b ->
+                 System.Random.$fRandomDouble5 (a2, b) eta }) -}
+6a9055bcc056d1525a41c042b5818e1c
+  randFloat ::
+    (GHC.Types.Float, GHC.Types.Float) -> GHC.Types.IO GHC.Types.Float
+  {- Arity: 2, Strictness: <S,1*U(U(U),U(U))><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Util.randFloat1
+                  `cast`
+                (<(GHC.Types.Float, GHC.Types.Float)>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Types.Float>_R)) -}
+9b1af1b257dfee101e25acb1961c734b
+  randFloat1 ::
+    (GHC.Types.Float, GHC.Types.Float)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Float #)
+  {- Arity: 2, Strictness: <S,1*U(U(U),U(U))><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: (GHC.Types.Float, GHC.Types.Float)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a2 b ->
+                 System.Random.$fRandomFloat3 (a2, b) eta }) -}
+b21799c9f046aa6f97b059b4501fbcab
+  randInt ::
+    (GHC.Types.Int, GHC.Types.Int) -> GHC.Types.IO GHC.Types.Int
+  {- Arity: 2, Strictness: <S,1*U(1*U(U),1*U(U))><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Util.randInt1
+                  `cast`
+                (<(GHC.Types.Int, GHC.Types.Int)>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Types.Int>_R)) -}
+d11176b907ecdbcae40471440eb71a34
+  randInt1 ::
+    (GHC.Types.Int, GHC.Types.Int)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Int #)
+  {- Arity: 2, Strictness: <S,1*U(1*U(U),1*U(U))><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: (GHC.Types.Int, GHC.Types.Int)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a2 b ->
+                 System.Random.$fRandomInt3 (a2, b) eta }) -}
+3353fb0cec2050c6b3101df62b2f7b40
+  shiftLeft :: GHC.Base.String -> GHC.Types.Int -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><S(S),1*U(1*U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Base.String w1 :: GHC.Types.Int ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 Graphics.UI.Fungen.Util.$wshiftLeft w ww1 }) -}
+1206a3da8ec709c054603d87a05bf857
+  strace :: GHC.Show.Show a => a -> a
+  {- Arity: 2, Strictness: <L,1*U(A,1*C1(U),A)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a2 $dShow :: GHC.Show.Show a2 eta :: a2 ->
+                 Debug.Trace.trace @ a2 (GHC.Show.show @ a2 $dShow eta) eta) -}
+d02463fcd2e538a9b17ed93bc8660abf
+  texCoord1 ::
+    Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <S,1*U(U)><S,1*U(U)><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ x :: Graphics.GL.Types.GLdouble
+                   y :: Graphics.GL.Types.GLdouble
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case x of dt { GHC.Types.D# ipv ->
+                 case y of dt1 { GHC.Types.D# ipv1 ->
+                 case Graphics.GL.Functions.F24.ptr_glTexCoord2d of ds3 { GHC.Ptr.FunPtr ds4 ->
+                 case {__dyn_ccall_GC "" GHC.Prim.Addr#
+                                         -> GHC.Prim.Double#
+                                         -> GHC.Prim.Double#
+                                         -> GHC.Prim.State# GHC.Prim.RealWorld
+                                         -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                        ds4
+                        ipv
+                        ipv1
+                        eta of wild { (##) ds9 ->
+                 (# ds9, GHC.Tuple.() #) } } } }) -}
+0e68b610762bea0f5f1724d259c56311
+  texCoord2 ::
+    Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <S,1*U(U)><S,1*U(U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Util.texCoord1
+                  `cast`
+                (<Graphics.GL.Types.GLdouble>_R
+                 ->_R <Graphics.GL.Types.GLdouble>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+02769941fcdc5491bc1cc39899ddfdd5
+  texStuff ::
+    [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> [Graphics.UI.Fungen.Types.AwbfBitmap] -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <S,1*U><L,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Util.texStuff1
+                  `cast`
+                (<[Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]>_R
+                 ->_R <[Graphics.UI.Fungen.Types.AwbfBitmap]>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+efb951bf9b66e0a42b3344020e91ab2e
+  texStuff1 ::
+    [Graphics.Rendering.OpenGL.GL.Texturing.TextureObject.TextureObject]
+    -> [Graphics.UI.Fungen.Types.AwbfBitmap]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <S,1*U><L,1*U><L,U> -}
+8eb57ce320bcf0c07a011584d020e633
+  toBinary :: GHC.Types.Int -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Int ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Graphics.UI.Fungen.Util.$wtoBinary ww1 }) -}
+74ef83e20181f670a8bcd5acaa57d332
+  toDecimal :: GHC.Base.String -> Graphics.GL.Types.GLsizei
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ a2 :: GHC.Base.String ->
+                 Graphics.UI.Fungen.Util.toDecimalAux
+                   (GHC.List.reverse @ GHC.Types.Char a2)
+                   Graphics.UI.Fungen.Util.toDecimal1) -}
+b70dea89d80e469d6064484ea3cdfb88
+  toDecimal1 :: GHC.Int.Int32
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Int.I32# 32) -}
+bf6ffaf2cb1291d97dad65b12ba259f9
+  toDecimalAux ::
+    GHC.Base.String
+    -> Graphics.GL.Types.GLsizei -> Graphics.GL.Types.GLsizei
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,1*U(1*U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Base.String w1 :: Graphics.GL.Types.GLsizei ->
+                 case Graphics.UI.Fungen.Util.$wtoDecimalAux w w1 of ww { DEFAULT ->
+                 GHC.Int.I32# ww }) -}
+b51733fdc4525f757a8c2cdeee0e781d
+  toRad :: GHC.Types.Float -> GHC.Types.Float
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ a2 :: GHC.Types.Float ->
+                 case a2 of wild1 { GHC.Types.F# y ->
+                 GHC.Types.F#
+                   (GHC.Prim.divideFloat#
+                      (GHC.Prim.timesFloat# __float 3.1415927 y)
+                      __float 180.0) }) -}
+09b015b587de9a07be28952f5d39c82b
+  tracewith :: (a -> GHC.Base.String) -> a -> a
+  {- Arity: 2, Strictness: <L,1*C1(U)><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a2 f :: a2 -> GHC.Base.String e :: a2 ->
+                 Debug.Trace.trace @ a2 (f e) e) -}
+884a891bd04d9a11b90f940a12fa5792
+  unless :: GHC.Base.Monad m => GHC.Types.Bool -> m () -> m ()
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,1*C1(U),A)><S,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ (m :: * -> *)
+                   $dMonad :: GHC.Base.Monad m
+                   p :: GHC.Types.Bool
+                   s :: m () ->
+                 case p of wild {
+                   GHC.Types.False -> s
+                   GHC.Types.True
+                   -> GHC.Base.return @ m $dMonad @ () GHC.Tuple.() }) -}
+44c3fbd923db35553ad4c99a64bfcd16
+  vertex1 ::
+    Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 4, Strictness: <S,1*U(U)><S,1*U(U)><S,1*U(U)><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ x :: Graphics.GL.Types.GLdouble
+                   y :: Graphics.GL.Types.GLdouble
+                   z :: Graphics.GL.Types.GLdouble
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case x of dt { GHC.Types.D# ipv ->
+                 case y of dt1 { GHC.Types.D# ipv1 ->
+                 case z of dt2 { GHC.Types.D# ipv2 ->
+                 case Graphics.GL.Functions.F28.ptr_glVertex3d of ds4 { GHC.Ptr.FunPtr ds5 ->
+                 case {__dyn_ccall_GC "" GHC.Prim.Addr#
+                                         -> GHC.Prim.Double#
+                                         -> GHC.Prim.Double#
+                                         -> GHC.Prim.Double#
+                                         -> GHC.Prim.State# GHC.Prim.RealWorld
+                                         -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                        ds5
+                        ipv
+                        ipv1
+                        ipv2
+                        eta of wild { (##) ds12 ->
+                 (# ds12, GHC.Tuple.() #) } } } } }) -}
+3040b491fd5be7922e1720cd55223d7b
+  vertex3 ::
+    Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> Graphics.GL.Types.GLdouble
+    -> GHC.Types.IO ()
+  {- Arity: 4, Strictness: <S,1*U(U)><S,1*U(U)><S,1*U(U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Util.vertex1
+                  `cast`
+                (<Graphics.GL.Types.GLdouble>_R
+                 ->_R <Graphics.GL.Types.GLdouble>_R
+                 ->_R <Graphics.GL.Types.GLdouble>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+f06a0c4dfdee4d0d4de138156b7207a3
+  when :: GHC.Base.Monad m => GHC.Types.Bool -> m () -> m ()
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,A,1*C1(U),A)><S,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ (m :: * -> *)
+                   $dMonad :: GHC.Base.Monad m
+                   p :: GHC.Types.Bool
+                   s :: m () ->
+                 case p of wild {
+                   GHC.Types.False -> GHC.Base.return @ m $dMonad @ () GHC.Tuple.()
+                   GHC.Types.True -> s }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

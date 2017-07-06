@@ -1,0 +1,248 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-28 11:47:31.2178194 UTC
+
+interface FunGE_1T23dZdtGeR6t6Mwex8FFS:Graphics.UI.Fungen.Init 7103
+  interface hash: 3132eb698835096ac8aa5f4f0f1342fc
+  ABI hash: d7d32a486641842e958b5936503bbd70
+  export-list hash: fab3ce7e6e6be76830296c824f8b0f98
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f7d4b72c09686e315d3cac9a71e00cda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Graphics.UI.Fungen.Init.funExit
+  Graphics.UI.Fungen.Init.funInit
+module dependencies: Graphics.UI.Fungen.Display
+                     Graphics.UI.Fungen.Game Graphics.UI.Fungen.Input
+                     Graphics.UI.Fungen.Loader Graphics.UI.Fungen.Map
+                     Graphics.UI.Fungen.Objects Graphics.UI.Fungen.Text
+                     Graphics.UI.Fungen.Timer Graphics.UI.Fungen.Types
+                     Graphics.UI.Fungen.Util Graphics.UI.GLUT.Input
+package dependencies: GLURaw-2.0.0.2@GLURa_BVPeDyl0qVBLMH9QT3LHA9
+                      GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD
+                      ObjectName-1.1.0.1@Objec_AzE7v9VWZHoFL7IhUyR6M2
+                      OpenGLRaw-3.2.1.0@OpenG_GKIwHGr93kb6IlKNvuJzKp
+                      OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      Win32-2.3.1.0@Win32_ELFLzTRksT8Dql3wobiWvb
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n ghc-prim-0.4.0.0
+                      half-0.2.2.3@half_5nzVTR1xHEH4euBf9ZdTFv integer-gmp-1.0.0.0
+                      random-1.1@rando_7Qv4dDT5WBF9U3tMWkytIb
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.Format.Parse
+         time-1.5.0.1@time_IYbjC7tGONY15oDy1fGJKz:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+import  -/  Graphics.UI.Fungen.Display 24f3df409f83fd6123848d9a833512bb
+  exports: cabf9b933d7e3441c1cc79555ca4f490
+  display 4fb4f74f836f0a631f50a91be91efd5f
+import  -/  Graphics.UI.Fungen.Game 242c57370acd0bff1108100111d54a9f
+  exports: 7d2e43115f047893962699afc7a6a4c0
+  IOGame 023f764656429577791b816b79fd1cc6
+  createGame d2b1265c2976b0761d137a3587e4212c
+  liftIOtoIOGame' dbccaa8420a7c509ad8d4b8e2550ac69
+import  -/  Graphics.UI.Fungen.Input 2c76f29f20da1e483a5b20ff4a006f1b
+  exports: 79aaddf98b30257710e9fc34487852ef
+  InputBinding 3152bcb91b04ffe477f59685a4e15520
+  funInitInput d740bd1eee3eda03b75c231b66be5bb7
+import  -/  Graphics.UI.Fungen.Loader f24d2703d632deff041b19fd2018857e
+  exports: dc3af7888dcfa4fd82d5322e42052e3d
+  FilePictureList 66496d5d334aab40dd115f000c4c4a69
+import  -/  Graphics.UI.Fungen.Map b6e0260dd8790a7481a84d2210a9e44b
+  exports: d775bc95dffcf787c0c16498da61eb4d
+  GameMap d60b958266525b239e58ec4acbb2bdbe
+import  -/  Graphics.UI.Fungen.Objects e6cadc642ca019aab8b39b73fb90f14a
+  exports: 9c33ce45a7d5b7d445364566939c9b1b
+  ObjectManager de2db806c297d18809decd251e9427c6
+import  -/  Graphics.UI.Fungen.Timer 18a8b4904d417c7c5417ef135565e04e
+  exports: f152adcdb7a3d5b9946b9091c516b54f
+  RefreshType 878c8fffdb3877dbef81cc3dfefa45d2
+  setRefresh 95be6094ec5d935362c084b1ab5f572d
+import  -/  Graphics.UI.Fungen.Types 266c0848bd0d02b9711b437939844328
+  exports: 5a8515e956ff2a99708d0d74d12ae2e4
+  WindowConfig 4da2bc592ac453c50b90d843e904c64d
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT 5f96c81bc741688b59291cc04889046c
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Begin 622794e108aff481df4b3bc11b2bd26f
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Callbacks.Window 711d4e76e4c763d10dcd31a14d4082cb
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Initialization c2b83532d2b78f0d4da5389b8c64376a
+import  -/  GLUT-2.7.0.10@GLUT_AuhRxWClWjI32vVqOBTDkD:Graphics.UI.GLUT.Window c736ea9cb6fe2eb93f451f73701e4af0
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL fd51d1cc1b32b2dc8d731f8d5809eb7e
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.BlendingFactor 32d441a48d177ddc3f3aeae658c02c6d
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Capability 719a1fa65ad364eca0fb2ea42f5a7b39
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.CoordTrans 8b660450943639e0aadeddc7e820344c
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Framebuffer a303cd2d220e5a06dbc6cc81d04bc783
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.Hints 56846760ea1551f08842e3a4506f72b9
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.PerFragment 5df33374164cb7400766b03734f47e0f
+import  -/  OpenGL-3.0.1.0@OpenG_HDgoWhJAAmk1vqUKnMSbhC:Graphics.Rendering.OpenGL.GL.VertexAttributes 05bcf4807149f18b48a9344316439f52
+import  -/  StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy:Data.StateVar a47bcf36d75f50e1f83a933cd25c1485
+import  -/  base-4.8.2.0:GHC.IO.Exception e38c1261b70caecb7af416b94c82c925
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.Exit f5581af4ad998e898da01fdc74c2769b
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+f0cda6bbe671c84d98e4e15882c644cd
+  $wa ::
+    GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Base.String
+    -> Graphics.UI.Fungen.Map.GameMap v
+    -> [Graphics.UI.Fungen.Objects.ObjectManager s]
+    -> u
+    -> t
+    -> [Graphics.UI.Fungen.Input.InputBinding t s u v]
+    -> Graphics.UI.Fungen.Game.IOGame t s u v ()
+    -> Graphics.UI.Fungen.Timer.RefreshType
+    -> Graphics.UI.Fungen.Loader.FilePictureList
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 14,
+     Strictness: <L,U(U)><L,U(U)><L,U(U)><L,U(U)><L,U><L,U><L,U><L,U><L,U><L,1*U><L,C(C1(U(U,1*U(1*U(U(U),U,U(U),U(U),U(U),U,U(U),U,U(U),U),A))))><L,1*U><L,1*U><L,U>,
+     Inline: [0] -}
+6393837a4472fff522e0a575a7a32319
+  funExit :: Graphics.UI.Fungen.Game.IOGame t s u v ()
+  {- Arity: 2, Strictness: <B,A><B,U>b,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Init.funExit1
+                  `cast`
+                (forall t s u v.
+                 Trans
+                     (<Graphics.UI.Fungen.Game.Game t s u v>_R
+                      ->_R Sym (GHC.Types.NTCo:IO[0]
+                                    <(Graphics.UI.Fungen.Game.Game t s u v, ())>_R))
+                     (Sym (Graphics.UI.Fungen.Game.NTCo:IOGame[0]
+                               <t>_R <s>_R <u>_R <v>_R <()>_R))) -}
+86918a4a320d1195cfdaa558d58fa5c5
+  funExit1 ::
+    Graphics.UI.Fungen.Game.Game t s u v
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Graphics.UI.Fungen.Game.Game t s u v, ()) #)
+  {- Arity: 2, Strictness: <B,A><B,U>b,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ t
+                   @ s
+                   @ u
+                   @ v
+                   s1 :: Graphics.UI.Fungen.Game.Game t s u v
+                   s2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case System.Exit.exitWith1 @ () GHC.IO.Exception.ExitSuccess s2
+                 ret_ty (# GHC.Prim.State# GHC.Prim.RealWorld,
+                           (Graphics.UI.Fungen.Game.Game t s u v, ()) #)
+                 of {}) -}
+2fd3fa73060634ab2284465279024266
+  funInit ::
+    Graphics.UI.Fungen.Types.WindowConfig
+    -> Graphics.UI.Fungen.Map.GameMap v
+    -> [Graphics.UI.Fungen.Objects.ObjectManager s]
+    -> u
+    -> t
+    -> [Graphics.UI.Fungen.Input.InputBinding t s u v]
+    -> Graphics.UI.Fungen.Game.IOGame t s u v ()
+    -> Graphics.UI.Fungen.Timer.RefreshType
+    -> Graphics.UI.Fungen.Loader.FilePictureList
+    -> GHC.Types.IO ()
+  {- Arity: 10,
+     Strictness: <S(SSL),1*U(U(U(U),U(U)),U(U(U),U(U)),U)><L,U><L,U><L,U><L,U><L,1*U><L,C(C1(U(U,1*U(1*U(U(U),U,U(U),U(U),U(U),U,U(U),U,U(U),U),A))))><L,1*U><L,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Graphics.UI.Fungen.Init.funInit1
+                  `cast`
+                (forall v s u t.
+                 <Graphics.UI.Fungen.Types.WindowConfig>_R
+                 ->_R <Graphics.UI.Fungen.Map.GameMap v>_R
+                 ->_R <[Graphics.UI.Fungen.Objects.ObjectManager s]>_R
+                 ->_R <u>_R
+                 ->_R <t>_R
+                 ->_R <[Graphics.UI.Fungen.Input.InputBinding t s u v]>_R
+                 ->_R <Graphics.UI.Fungen.Game.IOGame t s u v ()>_R
+                 ->_R <Graphics.UI.Fungen.Timer.RefreshType>_R
+                 ->_R <Graphics.UI.Fungen.Loader.FilePictureList>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+79cacf72304a264c2a5d57616fcffa05
+  funInit1 ::
+    Graphics.UI.Fungen.Types.WindowConfig
+    -> Graphics.UI.Fungen.Map.GameMap v
+    -> [Graphics.UI.Fungen.Objects.ObjectManager s]
+    -> u
+    -> t
+    -> [Graphics.UI.Fungen.Input.InputBinding t s u v]
+    -> Graphics.UI.Fungen.Game.IOGame t s u v ()
+    -> Graphics.UI.Fungen.Timer.RefreshType
+    -> Graphics.UI.Fungen.Loader.FilePictureList
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 10,
+     Strictness: <S(SSL),1*U(U(U(U),U(U)),U(U(U),U(U)),U)><L,U><L,U><L,U><L,U><L,1*U><L,C(C1(U(U,1*U(1*U(U(U),U,U(U),U(U),U(U),U,U(U),U,U(U),U),A))))><L,1*U><L,1*U><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (10, True, False)
+                (\ @ v
+                   @ s
+                   @ u
+                   @ t
+                   w :: Graphics.UI.Fungen.Types.WindowConfig
+                   w1 :: Graphics.UI.Fungen.Map.GameMap v
+                   w2 :: [Graphics.UI.Fungen.Objects.ObjectManager s]
+                   w3 :: u
+                   w4 :: t
+                   w5 :: [Graphics.UI.Fungen.Input.InputBinding t s u v]
+                   w6 :: Graphics.UI.Fungen.Game.IOGame t s u v ()
+                   w7 :: Graphics.UI.Fungen.Timer.RefreshType
+                   w8 :: Graphics.UI.Fungen.Loader.FilePictureList
+                   w9 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case w of ww { (,,) ww1 ww2 ww3 ->
+                 case ww1 of ww4 { (,) ww5 ww6 ->
+                 case ww2 of ww7 { (,) ww8 ww9 ->
+                 Graphics.UI.Fungen.Init.$wa
+                   @ v
+                   @ s
+                   @ u
+                   @ t
+                   ww5
+                   ww6
+                   ww8
+                   ww9
+                   ww3
+                   w1
+                   w2
+                   w3
+                   w4
+                   w5
+                   w6
+                   w7
+                   w8
+                   w9 } } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
